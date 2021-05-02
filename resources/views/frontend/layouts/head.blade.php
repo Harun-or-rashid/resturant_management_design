@@ -9,4 +9,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  </head>
+{{--allaila css start--}}
+<!-- GOOGLE WEB FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+
+    <!-- BASE CSS -->
+    <link href="{!! asset('assets/frontend/css/bootstrap.custom.min.css') !!}" rel="stylesheet">
+    <link href="{!! asset('assets/frontend/css/checkout.css') !!}" rel="stylesheet">
+    <link href="{!! asset('assets/frontend/css/style.css') !!}" rel="stylesheet">
+
+
+{{--    <link href="{!! asset('public/assets/frontend/plugins/toastr/toastr.min.css') !!}" rel="stylesheet">--}}
+{{--    <link rel="stylesheet" href="{!! asset('assets/backend/loader.css') !!}">--}}
+<!-- YOUR CUSTOM CSS -->
+    {{--    <link href="{!! asset('public/assets/frontend/css/custom.css') !!}?v=1.0" rel="stylesheet">--}}
+
+</head>

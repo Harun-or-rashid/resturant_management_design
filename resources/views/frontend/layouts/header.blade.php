@@ -2,7 +2,7 @@
     <div class="containera">
         <div class="row " style="background: red; text-align:center;color:white">
             <div class="col-md-2 " style="border-right: 1px solid white;">
-                <p><a href="#." class="btn btn-transparent text-white " style=" margin-left: -10px;text-align:center;font-size: 14px"><span class="icon icon-font fa fa-whatsapp"></span>WhatsApp:+8801740 000004</a></p>
+                <p><a href="#." class="btn btn-transparent text-white " style=" margin-left: -10px;text-align:center;font-size: 14px"><span class="icon icon-font fa fa-whatsapp"></span>WhatsApp:+8801937 990 932</a></p>
             </div>
             <div class="col-md-8 ">
                 <div class="row" style="border-right: 1px solid white;">
@@ -39,44 +39,45 @@
             </div>
         </div>
     </div>
-    <section>
-        <div class="row" style="height: 300px;">
-            <div class="col-md-3">
-                <a href="">
-                    <img style="" src="{{asset('assets/front-end')}}/images/logo-khan.png" alt="">
-                </a>
-            </div>
-            <div class="col-md-6">
-                <nav class="navbar navbar-expand-sm bg-transparent d-flex ">
+    <div class="row main_nav" style="height: 67px;">
+        <div class="col-md-3">
+            <a href="">
+                <img style="" src="{{asset('assets/front-end')}}/images/logo-khan.png" alt="">
+            </a>
+        </div>
+        <div class="col-md-6">
+            <nav class="navbar navbar-expand-sm bg-transparent d-flex ">
 
-                    <!-- Links -->
-                    <ul class="navbar-nav " style="position: relative;left: 115px">
-                        <li class="nav-item">
-                            <a class="nav-link btn btn-transparent text-warning" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn btn-transparent text-warning" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn btn-transparent text-warning" href="#">Contact Us</a>
-                        </li>
-                    </ul>
+                <!-- Links -->
+                <ul class="navbar-nav " style="position: relative;left: 115px;top: 10px">
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-transparent text-warning" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-transparent text-warning" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-transparent text-warning" href="#">Contact Us</a>
+                    </li>
+                </ul>
 
-                </nav>
-            </div>
-            <div class="col-md-3" style="">
-                <div class="row">
-                    <div class="icon col-md-1" style=" font-size: 35px;position: relative;right: 25px;">
-                        <span class="icon fa fa-phone"></span>
-                    </div>
-                    <div class="contact ">
-                        <span class="header-text-1">(+880) 1937 990 932,(+880) 1937 990 933</span><br>
-
-                        <span class="header-text-2">Sat-Fri:10:00am-10:00pm;(GMT+6 BD time)</span>
-                    </div>
+            </nav>
+        </div>
+        <div class="col-md-3" style="">
+            <div class="row">
+                <div class="icon col-md-1" style=" font-size: 35px;position: relative;right: 25px;">
+                    <span class="icon fa fa-phone"></span>
                 </div>
+                <div class="contact ">
+                    <span class="header-text-1">(+880) 1937 990 932,(+880) 1937 990 933</span><br>
 
+                    <span class="header-text-2">Sat-Fri:10:00am-10:00pm;(GMT+6 BD time)</span>
+                </div>
             </div>
+
+        </div>
+    </div>
+        <div class="row">
 
             <div class="row " style="width: 100%">
                 <div id="carouselExampleIndicators" class="carousel slide " style="width: 100%" data-ride="carousel">
@@ -115,5 +116,5 @@
             </div>
 
         </div>
-    </section>
+
 </header>
