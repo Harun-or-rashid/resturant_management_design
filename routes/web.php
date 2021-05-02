@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\Frontend\SslCommerzPaymentController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,5 +17,6 @@ Route::group(['namespace' => 'App\Http\Controllers'], function () {
 
 });
 Route::get('/', function () {
-    return view('welcome');
+    return view('frontend.app');
 });
+
