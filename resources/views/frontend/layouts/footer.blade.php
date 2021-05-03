@@ -94,5 +94,12 @@
 -->
 <script src="{!! asset('assets/frontend/js/common_scripts.min.js') !!}"></script>
 <script src="{!! asset('assets/frontend/js/main.js') !!}"></script>
+
+<script>
+    function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+    }
+</script>
 </body>
 </html>

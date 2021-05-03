@@ -17,6 +17,9 @@ Route::group(['namespace' => 'App\Http\Controllers'], function () {
 
 });
 Route::get('/', function () {
-    return view('frontend.app');
+    return view('frontend.pages.home');
+});
+Route::get('/menus', function () {
+    return view('frontend.pages.menu');
 });
 

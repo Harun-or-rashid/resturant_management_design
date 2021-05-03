@@ -1,4 +1,38 @@
-Z    <div class="containera">
+<!doctype html>
+<html lang="en">
+@include('frontend.layouts.head')
+<style>
+    .slider-row{
+        overflow: hidden;
+        height: 1020px;
+        margin-bottom: 15px;
+    }
+    .same-mb{
+        margin-bottom: 15px;
+    }
+    .same-mt{
+        margin-top: 25px;
+    }
+    .useful-links>li{
+        list-style: none;
+    }
+    .footer-img{
+        height: 100px;
+        width: 180px;
+        border-radius: 25px;
+        position: relative;
+        top: 85px;
+    }
+    .foot{
+        border-top:1px solid #718096;
+    }
+    .payment-img img{
+        height: 52px;
+    }
+</style>
+@section('title','App-Page')
+<header class="slider-row" >
+    <div class="containera">
         <div class="row " style="background: red; text-align:center;color:white">
             <div class="col-md-2 " style="border-right: 1px solid white;">
                 <p><a href="#." class="btn btn-transparent text-white " style=" margin-left: -10px;text-align:center;font-size: 14px"><span class="icon icon-font fa fa-whatsapp"></span>WhatsApp:+8801937 990 932</a></p>
@@ -6,7 +40,7 @@ Z    <div class="containera">
             <div class="col-md-8 ">
                 <div class="row" style="border-right: 1px solid white;">
                     <div class="left">
-                        <p ><a href="#." class="btn btn-transparent text-white " ><span class=""></span>Please Call Us At:+(+880)1937 990932 </a></p>
+                        <p ><a href="#." class="btn btn-transparent text-white " ><span class=""></span>Please Call Us At:+(+880)1937 990932</a></p>
                     </div>
                     <div class="right offset-6 text-white" style="">
                     <span>
@@ -78,4 +112,50 @@ Z    <div class="containera">
 
         </div>
     </div>
+    <div class="row">
 
+        <div class="row " style="width: 100%">
+            <div id="carouselExampleIndicators" class="carousel slide " style="width: 100%" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    {{--                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>--}}
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="{{asset('assets/front-end/images')}}/sliders/1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    {{--                <div class="carousel-item">--}}
+                    {{--                    <img src="{{asset('public/assets/front-end')}}/images/slider/slider2.jpeg" class="d-block w-100 h-500" alt="...">--}}
+                    {{--                </div>--}}
+                    <div class="carousel-item">
+                        <img src="{{asset('assets/front-end/images')}}/sliders/2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="{{asset('assets/front-end/images')}}/sliders/3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" id="previous" href="#carouselExampleIndicators" role="button"
+                   data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" id="next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<body>
+@yield('main_content')
+
+
+@include('frontend.layouts.footer')
