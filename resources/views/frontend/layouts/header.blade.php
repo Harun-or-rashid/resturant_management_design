@@ -39,19 +39,22 @@
             </div>
         </div>
     </div>
-    <div class="row main_nav" style="height: 67px;">
+    <div class="row main_nav" style="height: 140px;">
         <div class="col-md-3">
             <a href="">
-                <img style="" src="{{asset('assets/front-end')}}/images/logo-khan.png" alt="">
+                <img style="position: relative;top: 35px" src="{{asset('assets/front-end')}}/images/logo-khan.png" alt="">
             </a>
         </div>
         <div class="col-md-6">
             <nav class="navbar navbar-expand-sm bg-transparent d-flex ">
 
                 <!-- Links -->
-                <ul class="navbar-nav " style="position: relative;left: 115px;top: 10px">
+                <ul class="navbar-nav " style="position: relative;left: 115px;top: 50px">
                     <li class="nav-item">
                         <a class="nav-link btn btn-transparent text-warning" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-transparent text-warning" href="#">Menus</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link btn btn-transparent text-warning" href="#">About Us</a>
@@ -64,7 +67,7 @@
             </nav>
         </div>
         <div class="col-md-3" style="">
-            <div class="row">
+            <div class="row"  style="position: relative; top: 35px;">
                 <div class="icon col-md-1" style=" font-size: 35px;position: relative;right: 25px;">
                     <span class="icon fa fa-phone"></span>
                 </div>
@@ -90,16 +93,16 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="https://khanemajlis.com/public/assets/front-end/images/slider/slider2.jpeg" class="d-block w-100" alt="...">
+                            <img src="{{asset('assets/front-end/images')}}/sliders/1.jpg" class="d-block w-100" alt="...">
                         </div>
                         {{--                <div class="carousel-item">--}}
                         {{--                    <img src="{{asset('public/assets/front-end')}}/images/slider/slider2.jpeg" class="d-block w-100 h-500" alt="...">--}}
                         {{--                </div>--}}
                         <div class="carousel-item">
-                            <img src="https://khanemajlis.com/public/assets/front-end/images/slider/slider1.jpeg" class="d-block w-100" alt="...">
+                            <img src="{{asset('assets/front-end/images')}}/sliders/2.jpg" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="https://khanemajlis.com/public/assets/front-end/images/slider/slider4.jpeg" class="d-block w-100" alt="...">
+                            <img src="{{asset('assets/front-end/images')}}/sliders/3.jpg" class="d-block w-100" alt="...">
                         </div>
                     </div>
                     <a class="carousel-control-prev" id="previous" href="#carouselExampleIndicators" role="button"

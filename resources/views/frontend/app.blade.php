@@ -34,7 +34,7 @@
   <body>
 @include('frontend.layouts.header')
 
-<div class="content bg-dark">
+<div class="content bg-dark" style="margin-top: -125px">
     <div class="container margin_60_35" id="vue-app">
         <div>
             <h1 class="text-center" style="color: #c98429"> Make an Order Now!</h1>
@@ -50,8 +50,8 @@
                         {{--                        <span class="ribbon new">New</span>--}}
                         <figure>
                             <a href="product-detail-1.html">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5.jpg" alt="">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5_b.jpg" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/1.png" data-src="{{asset('assets/front-end/images/')}}/products/1.png" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/1.png" data-src="{{asset('assets/front-end/images/')}}/products/1.png" alt="">
                             </a>
                         </figure>
                         {{--                        <div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>--}}
@@ -74,8 +74,8 @@
                         {{--                        <span class="ribbon new">New</span>--}}
                         <figure>
                             <a href="product-detail-1.html">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5.jpg" alt="">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5_b.jpg" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/2.png" data-src="{{asset('assets/front-end/images/')}}/products/2.png" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/2.png" data-src="{{asset('assets/front-end/images/')}}/products/2.png" alt="">
                             </a>
                         </figure>
                         {{--                        <div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>--}}
@@ -98,8 +98,8 @@
                         {{--                        <span class="ribbon new">New</span>--}}
                         <figure>
                             <a href="product-detail-1.html">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5.jpg" alt="">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5_b.jpg" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/1.png" data-src="{{asset('assets/front-end/images/')}}/products/1.png" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/1.png" data-src="{{asset('assets/front-end/images/')}}/products/1.png" alt="">
                             </a>
                         </figure>
                         {{--                        <div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>--}}
@@ -122,8 +122,8 @@
                         {{--                        <span class="ribbon new">New</span>--}}
                         <figure>
                             <a href="product-detail-1.html">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5.jpg" alt="">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5_b.jpg" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/3.png" data-src="{{asset('assets/front-end/images/')}}/products/3.png" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/3.png" data-src="{{asset('assets/front-end/images/')}}/products/3.png" alt="">
                             </a>
                         </figure>
                         {{--                        <div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>--}}
@@ -146,8 +146,8 @@
 {{--                        <span class="ribbon new">New</span>--}}
                         <figure>
                             <a href="product-detail-1.html">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5.jpg" alt="">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5_b.jpg" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/4.png" data-src="{{asset('assets/front-end/images/')}}/products/4.png" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/4.png" data-src="{{asset('assets/front-end/images/')}}/products/4.png" alt="">
                             </a>
                         </figure>
 {{--                        <div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>--}}
@@ -170,8 +170,8 @@
                         {{--                        <span class="ribbon new">New</span>--}}
                         <figure>
                             <a href="product-detail-1.html">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5.jpg" alt="">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5_b.jpg" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/5.png" data-src="{{asset('assets/front-end/images/')}}/products/5.png" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/5.png" data-src="{{asset('assets/front-end/images/')}}/products/5.png" alt="">
                             </a>
                         </figure>
                         {{--                        <div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>--}}
@@ -194,8 +194,8 @@
                         {{--                        <span class="ribbon new">New</span>--}}
                         <figure>
                             <a href="product-detail-1.html">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5.jpg" alt="">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5_b.jpg" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/6.png" data-src="{{asset('assets/front-end/images/')}}/products/6.png" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/6.png" data-src="{{asset('assets/front-end/images/')}}/products/6.png" alt="">
                             </a>
                         </figure>
                         {{--                        <div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>--}}
@@ -218,8 +218,8 @@
                         {{--                        <span class="ribbon new">New</span>--}}
                         <figure>
                             <a href="product-detail-1.html">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5.jpg" alt="">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5_b.jpg" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/7.png" data-src="{{asset('assets/front-end/images/')}}/products/7.png" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/7.png" data-src="{{asset('assets/front-end/images/')}}/products/7.png" alt="">
                             </a>
                         </figure>
                         {{--                        <div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>--}}
@@ -256,8 +256,8 @@
                         {{--                        <span class="ribbon new">New</span>--}}
                         <figure>
                             <a href="product-detail-1.html">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5.jpg" alt="">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5_b.jpg" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/8.png" data-src="{{asset('assets/front-end/images/')}}/products/8.png" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/8.png" data-src="{{asset('assets/front-end/images/')}}/products/8.png" alt="">
                             </a>
                         </figure>
                         {{--                        <div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>--}}
@@ -280,8 +280,8 @@
                         {{--                        <span class="ribbon new">New</span>--}}
                         <figure>
                             <a href="product-detail-1.html">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5.jpg" alt="">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5_b.jpg" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/13.png" data-src="{{asset('assets/front-end/images/')}}/products/13.png" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/13.png" data-src="{{asset('assets/front-end/images/')}}/products/13.png" alt="">
                             </a>
                         </figure>
                         {{--                        <div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>--}}
@@ -304,8 +304,8 @@
                         {{--                        <span class="ribbon new">New</span>--}}
                         <figure>
                             <a href="product-detail-1.html">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5.jpg" alt="">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5_b.jpg" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/8.png" data-src="{{asset('assets/front-end/images/')}}/products/8.png" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/8.png" data-src="{{asset('assets/front-end/images/')}}/products/8.png" alt="">
                             </a>
                         </figure>
                         {{--                        <div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>--}}
@@ -328,8 +328,8 @@
                         {{--                        <span class="ribbon new">New</span>--}}
                         <figure>
                             <a href="product-detail-1.html">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5.jpg" alt="">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5_b.jpg" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/11.png" data-src="{{asset('assets/front-end/images/')}}/products/11.png" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/11.png" data-src="{{asset('assets/front-end/images/')}}/products/11.png" alt="">
                             </a>
                         </figure>
                         {{--                        <div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>--}}
@@ -352,8 +352,8 @@
                         {{--                        <span class="ribbon new">New</span>--}}
                         <figure>
                             <a href="product-detail-1.html">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5.jpg" alt="">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5_b.jpg" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/3.png" data-src="{{asset('assets/front-end/images/')}}/products/3.png" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/3.png" data-src="{{asset('assets/front-end/images/')}}/products/3.png" alt="">
                             </a>
                         </figure>
                         {{--                        <div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>--}}
@@ -376,8 +376,8 @@
                         {{--                        <span class="ribbon new">New</span>--}}
                         <figure>
                             <a href="product-detail-1.html">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5.jpg" alt="">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5_b.jpg" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/10.png" data-src="{{asset('assets/front-end/images/')}}/products/10.png" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/10.png" data-src="{{asset('assets/front-end/images/')}}/products/10.png" alt="">
                             </a>
                         </figure>
                         {{--                        <div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>--}}
@@ -400,8 +400,8 @@
                         {{--                        <span class="ribbon new">New</span>--}}
                         <figure>
                             <a href="product-detail-1.html">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5.jpg" alt="">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5_b.jpg" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/1.png" data-src="{{asset('assets/front-end/images/')}}/products/1.png" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/1.png" data-src="{{asset('assets/front-end/images/')}}/products/1.png" alt="">
                             </a>
                         </figure>
                         {{--                        <div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>--}}
@@ -424,8 +424,8 @@
                         {{--                        <span class="ribbon new">New</span>--}}
                         <figure>
                             <a href="product-detail-1.html">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5.jpg" alt="">
-                                <img class="img-fluid lazy" src="{{asset('assets/frontend/img/')}}/products/product_placeholder_square_medium.jpg" data-src="{{asset('assets/frontend/img/')}}/products/shoes/5_b.jpg" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/14.png" data-src="{{asset('assets/front-end/images/')}}/products/14.png" alt="">
+                                <img class="img-fluid lazy" src="{{asset('assets/front-end/images/')}}/products/14.png" data-src="{{asset('assets/front-end/images/')}}/products/14.png" alt="">
                             </a>
                         </figure>
                         {{--                        <div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>--}}
@@ -452,22 +452,5 @@
 </div>
 
 @include('frontend.layouts.footer')
- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-{{--allaila JS start--}}
 
-<!-- COMMON SCRIPTS -->
-{{--<script src="{!! asset('assets/frontend/js/jquery-3.5.1.min.js') !!}"></script>--}}
-<!--
-
-&lt;!&ndash; Toastr SCRIPTS &ndash;&gt;
-<script src="{!! asset('assets/frontend/plugins/toastr/toastr.min.js') !!}"></script>
-
-
--->
-<script src="{!! asset('assets/frontend/js/common_scripts.min.js') !!}"></script>
-<script src="{!! asset('assets/frontend/js/main.js') !!}"></script>
-  </body>
-</html>
 
