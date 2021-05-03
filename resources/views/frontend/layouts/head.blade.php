@@ -2,6 +2,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{asset('assets/front-end/images')}}/logo-khan.png">
+
     <meta property="og:image" content="{{asset('assets/front-end/images')}}/logo-khan.png"/>
     <meta property="og:title" content="Welcome To KHANEMAJLIS"/>
     <meta property="og:url" content="https://khanemajlis.com/">

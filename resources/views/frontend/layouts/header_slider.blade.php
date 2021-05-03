@@ -73,7 +73,7 @@
     </div>
     <div class="row main_nav" style="height: 140px;">
         <div class="col-md-3">
-            <a href="">
+            <a href="{{url('/')}}">
                 <img style="position: relative;top: 35px" src="{{asset('assets/front-end')}}/images/logo-khan.png" alt="">
             </a>
         </div>
@@ -83,13 +83,13 @@
                 <!-- Links -->
                 <ul class="navbar-nav " style="position: relative;left: 115px;top: 50px">
                     <li class="nav-item">
-                        <a class="nav-link btn btn-transparent text-warning" href="#">Home</a>
+                        <a class="nav-link btn btn-transparent text-warning" href="{{'/'}}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-transparent text-warning" href="#">Menus</a>
+                        <a class="nav-link btn btn-transparent text-warning" href="{{url('/menus')}}">Menus</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-transparent text-warning" href="#">About Us</a>
+                        <a class="nav-link btn btn-transparent text-warning" href="{{url('/about')}}">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link btn btn-transparent text-warning" href="#">Contact Us</a>

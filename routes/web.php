@@ -22,4 +22,7 @@ Route::get('/', function () {
 Route::get('/menus', function () {
     return view('frontend.pages.menu');
 });
+Route::get('/about', function () {
+    return view('frontend.pages.about');
+});
 

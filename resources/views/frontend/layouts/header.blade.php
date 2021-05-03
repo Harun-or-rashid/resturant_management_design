@@ -1,4 +1,4 @@
-Z    <div class="containera">
+    <div class="containera">
         <div class="row " style="background: red; text-align:center;color:white">
             <div class="col-md-2 " style="border-right: 1px solid white;">
                 <p><a href="#." class="btn btn-transparent text-white " style=" margin-left: -10px;text-align:center;font-size: 14px"><span class="icon icon-font fa fa-whatsapp"></span>WhatsApp:+8801937 990 932</a></p>
@@ -39,7 +39,7 @@ Z    <div class="containera">
     </div>
     <div class="row main_nav" style="height: 140px;">
         <div class="col-md-3">
-            <a href="">
+            <a href="{{url('/')}}">
                 <img style="position: relative;top: 35px" src="{{asset('assets/front-end')}}/images/logo-khan.png" alt="">
             </a>
         </div>
@@ -49,13 +49,13 @@ Z    <div class="containera">
                 <!-- Links -->
                 <ul class="navbar-nav " style="position: relative;left: 115px;top: 50px">
                     <li class="nav-item">
-                        <a class="nav-link btn btn-transparent text-warning" href="#">Home</a>
+                        <a class="nav-link btn btn-transparent text-warning" href="{{'/'}}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-transparent text-warning" href="#">Menus</a>
+                        <a class="nav-link btn btn-transparent text-warning" href="{{url('/menus')}}">Menus</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-transparent text-warning" href="#">About Us</a>
+                        <a class="nav-link btn btn-transparent text-warning" href="{{url('/about')}}">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link btn btn-transparent text-warning" href="#">Contact Us</a>
