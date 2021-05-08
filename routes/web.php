@@ -25,4 +25,7 @@ Route::get('/menus', function () {
 Route::get('/about', function () {
     return view('frontend.pages.about');
 });
+Route::get('/iftar', function () {
+    return view('frontend.pages.iftar');
+});
 

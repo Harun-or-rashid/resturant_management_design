@@ -19,27 +19,27 @@
             <h4>Sign Up For Special Offer</h4>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Your email here" aria-label="Search">
-                <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Sign-Up</button>
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Sign-Up</button>
             </form>
         </div>
 
     </div>
     <div class="col-md-2">
         <h4 class="" style="text-align: center">Useful Links</h4>
-        <ul class="useful-links">
-            <li class=""><a class="btn btn-transparent text-warning" href="">Our History</a></li>
-            <li><a class="btn btn-transparent text-warning" href="">Resturant Menu</a></li>
-            <li><a class="btn btn-transparent text-warning" href="">Local Branches</a></li>
+        <ul class="useful-links ">
+            <li class=""><a class="btn btn-transparent text-info" href="{{url('/')}}">Home</a></li>
+            <li><a class="btn btn-transparent text-info" href="{{url('/menus')}}">Resturant Menu</a></li>
+{{--            <li><a class="btn btn-transparent text-warning" href="">Local Branches</a></li>--}}
 {{--            <li><a class="btn btn-transparent text-warning" href="">Franchise</a></li>--}}
-            <li><a class="btn btn-transparent text-warning" href="">Our Gallery</a></li>
-            <li><a class="btn btn-transparent text-warning" href="">Contact Us</a></li>
-            <li><a class="btn btn-transparent text-warning" href="">About</a></li>
+{{--            <li><a class="btn btn-transparent text-warning" href="">Our Gallery</a></li>--}}
+            <li><a class="btn btn-transparent text-info" href="">Contact Us</a></li>
+            <li><a class="btn btn-transparent text-info" href="{{url('/about')}}">About</a></li>
         </ul>
     </div>
     <div class="col-md-2">
         <div class=" same-mb">
             <a href="">
-                <img style="" class="footer-img" src="https://khanemajlis.com/public/assets/front-end/images/ll.jpeg" alt="">
+                <img style="" class="footer-img" src="{{asset('assets/front-end/images/img.png')}}" alt="">
             </a>
         </div>
     </div>
@@ -50,7 +50,23 @@
                 <span class="icon fa fa-home"></span>
             </div>
             <div class="content">
-<p>HOUSE-47,RD NO:13,BLOCK: E,BANANI 1213,DHAKA</p>
+                <p tyle="font-size: 15px;font-weight: 400">HOUSE-47,RD NO:13,BLOCK: E,BANANI 1213,DHAKA</p>
+            </div>
+        </div>
+        <div class="location d-flex">
+            <div class="icon col-md-1" style=" font-size: 18px;">
+                <span class="icon fa fa-phone"></span>
+            </div>
+            <div class="content">
+                <p style="font-size: 15px;font-weight: 400">(+880) 1937 990 932,(+880) 1937 990 933</p>
+            </div>
+        </div>
+        <div class="location d-flex">
+            <div class="icon col-md-1" style=" font-size: 18px;">
+                <span class="icon fa fa-clock"></span>
+            </div>
+            <div class="content">
+                <p style="font-size: 15px;font-weight: 400">Sat-Fri: 10:00am-10:00pm; (GMT+6 BD time)</p>
             </div>
         </div>
     </div>

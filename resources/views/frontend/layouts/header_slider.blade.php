@@ -119,6 +119,11 @@
         position: relative;
         top: 85px;
     }
+    .useful-links>li>a{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
     .foot{
         border-top:1px solid #718096;
     }
