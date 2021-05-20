@@ -95,6 +95,52 @@
     .dropdown:hover .dropdown-content {display: block;}
 
     /*.dropdown:hover .dropbtn {background-color: #449AD4;}*/
+
+    @media only screen and (max-width: 700px) {
+        body {
+        }
+        .dis-non{
+            display: none;
+        }
+        #mt-slider{
+            margin-bottom: -425px;
+        }
+        .dis-con{
+            position: relative;
+            display: contents;
+
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        body {
+        }
+        .dis-non{
+            display: none;
+        }
+        .mt-slider{
+            margin-top: -425px;
+        }
+        .dis-con{
+            position: relative;
+            display: contents;
+
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        body {
+        }
+        .dis-non{
+            display: none;
+        }
+        .mt-slider{
+            margin-top: -425px;
+        }
+        .dis-con{
+            display: contents;
+
+        }
+    }
 </style>
 @section('title','App-Page')
   <body>

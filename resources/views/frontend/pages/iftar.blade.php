@@ -16,7 +16,7 @@
                         </div>
                     </div>
                     <div class="col-lg-5 pl-lg-5 text-center d-none d-lg-block">
-                        <img src="{{asset('assets/front-end/images')}}/img.png" alt="" class="img-fluid" width="350" height="268">
+                        <img src="{{asset('assets/front-end/images')}}/hydrabadibiriyani.png" alt="" class="img-fluid" width="350" height="268">
                     </div>
                 </div>
                 <!-- /row -->

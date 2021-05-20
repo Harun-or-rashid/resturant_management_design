@@ -130,14 +130,47 @@
     .payment-img img{
         height: 52px;
     }
+    @media only screen and (max-width: 700px) {
+        body {
+        }
+        .dis-non{
+            display: none;
+        }
+        #mt-slider{
+            margin-bottom: -425px;
+        }
+        .dis-con{
+            position: relative;
+            display: contents;
+
+        }
+    }
+
     @media only screen and (max-width: 600px) {
         body {
         }
         .dis-non{
             display: none;
         }
+        .mt-slider{
+            margin-top: -425px;
+        }
         .dis-con{
-            position: fixed;
+            position: relative;
+            display: contents;
+
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        body {
+        }
+        .dis-non{
+            display: none;
+        }
+        .mt-slider{
+            margin-top: -425px;
+        }
+        .dis-con{
             display: contents;
 
         }
@@ -145,7 +178,7 @@
 </style>
 @section('title','App-Page')
 <header class="slider-row" >
-    <div class="containera">
+    <div class="containera ">
         <div class="row " style="background: #449AD4; text-align:center;color:white">
             <div class="col-md-2 " style="border-right: 1px solid white;">
                 <p><a href="https://api.whatsapp.com/send?phone=+8801937990932" class="btn btn-transparent text-white " style=" margin-left: -10px;text-align:center;font-size: 14px"><span class="icon icon-font fa fa-whatsapp"></span>WhatsApp:+8801937 990 932</a></p>
@@ -203,7 +236,7 @@
 
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-sm-6 col-xl-6">
             <nav class="navbar navbar-expand-sm bg-transparent d-flex dis-con">
 
                 <!-- Links -->
@@ -213,6 +246,10 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link btn btn-transparent text-info" href="{{url('/menus')}}">Menus</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-transparent text-info" href="{{url('/iftar')}}">Exquisite Iftar Bazaar</a>
 
                     </li>
                     <li class="nav-item">
@@ -230,7 +267,7 @@
                 <div class="icon col-md-1" style=" font-size: 35px;position: relative;right: 25px;">
                     <span class="icon fa fa-phone"></span>
                 </div>
-                <div class="contact ">
+                <div class="contact dis-non ">
                     <span class="header-text-1" style="font-size: 15px">(+880) 1937 990 932,(+880) 1937 990 933</span><br>
 
                     <span class="header-text-2" style="font-size: 15px">Sat-Fri:10:00am-10:00pm;(GMT+6 BD time)</span>
@@ -241,7 +278,7 @@
     </div>
 
 
-    <div class="row">
+    <div class="row  ">
 
         <div class="row " style="width: 100%">
             <div id="carouselExampleIndicators" class="carousel slide " style="width: 100%" data-ride="carousel">

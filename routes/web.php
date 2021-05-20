@@ -17,15 +17,19 @@ Route::group(['namespace' => 'App\Http\Controllers'], function () {
 
 });
 Route::get('/', function () {
-    return view('frontend.pages.home');
+    return view('frontend.pages.home
+    ');
 });
 Route::get('/menus', function () {
     return view('frontend.pages.menu');
+});
+Route::get('/test', function () {
+    return view('frontend.pages.homes');
 });
 Route::get('/about', function () {
     return view('frontend.pages.about');
 });
 Route::get('/iftar', function () {
-    return view('frontend.pages.iftar');
+    return view('frontend.pages.iftarsss');
 });
 
