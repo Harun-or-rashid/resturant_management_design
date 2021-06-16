@@ -102,7 +102,7 @@
     <link rel="stylesheet" id="stb-style-css" href="{{asset('assets/wp-content/plugins/bkash/css/style.css')}}" type="text/css" media="all" />
     <link rel="stylesheet" id="animate-css-css" href="{{asset('assets/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css')}}" type="text/css" media="all" />
     <link rel="stylesheet" id="magnific-popup-css" href="{{asset('assets/wp-content/plugins/ovic-toolkit/assets/css/magnific-popup.css')}}" type="text/css" media="all" />
-      <link rel="stylesheet" id="bootstrap-css" href="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/css/bootstrap.min.css')}}" type="text/css" media="all" />
+    <link rel="stylesheet" id="bootstrap-css" href="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/css/bootstrap.min.css')}}" type="text/css" media="all" />
     <link rel="stylesheet" id="font-awesome-css" href="{{asset('assets/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css')}}" type="text/css" media="all" />
     <style id="font-awesome-inline-css" type="text/css">
         [data-font="FontAwesome"]:before {
@@ -119,21 +119,21 @@
         }
     </style>
     <link rel="stylesheet" id="pe-icon-7-stroke-css" href="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/css/pe-icon-7-stroke.min.css')}}" type="text/css" media="all" />
-        <link rel="stylesheet" id="slick-css" href="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/css/slick.min.css')}}" type="text/css" media="all" />
-        <link rel="stylesheet" id="themify-css" href="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/css/themify-icons.css')}}" type="text/css" media="all" />
-        <link rel="stylesheet" id="chosen-css" href="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/css/chosen.min.css')}}" type="text/css" media="all" />
-        <link rel="stylesheet" id="growl-css" href="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/css/growl.min.css')}}" type="text/css" media="all" />
-        <link rel="stylesheet" id="rs-plugin-settings-css" href="{{asset('assets/wp-content/plugins/revslider/public/assets/css/rs6.css')}}" type="text/css" media="all" />
-        <style id="rs-plugin-settings-inline-css" type="text/css">
-            #rs-demo-id {
-            }
-        </style>
-        <style id="woocommerce-inline-inline-css" type="text/css">
-            .woocommerce form .form-row .required {
-                visibility: visible;
-            }
-        </style>
-        <link rel="stylesheet" id="owl.carousel.style-css" href="{{asset('assets/wp-content/plugins/wp-posts-carousel/owl.carousel/assets/owl.carousel.css')}}" type="text/css" media="all" />
+    <link rel="stylesheet" id="slick-css" href="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/css/slick.min.css')}}" type="text/css" media="all" />
+    <link rel="stylesheet" id="themify-css" href="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/css/themify-icons.css')}}" type="text/css" media="all" />
+    <link rel="stylesheet" id="chosen-css" href="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/css/chosen.min.css')}}" type="text/css" media="all" />
+    <link rel="stylesheet" id="growl-css" href="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/css/growl.min.css')}}" type="text/css" media="all" />
+    <link rel="stylesheet" id="rs-plugin-settings-css" href="{{asset('assets/wp-content/plugins/revslider/public/assets/css/rs6.css')}}" type="text/css" media="all" />
+    <style id="rs-plugin-settings-inline-css" type="text/css">
+        #rs-demo-id {
+        }
+    </style>
+    <style id="woocommerce-inline-inline-css" type="text/css">
+        .woocommerce form .form-row .required {
+            visibility: visible;
+        }
+    </style>
+    <link rel="stylesheet" id="owl.carousel.style-css" href="{{asset('assets/wp-content/plugins/wp-posts-carousel/owl.carousel/assets/owl.carousel.css')}}" type="text/css" media="all" />
     <link rel="stylesheet" id="wp-rest-user-css" href="{{asset('assets/wp-content/plugins/wp-rest-user/public/css/wp-rest-user-public.css')}}" type="text/css" media="all" />
     <link rel="stylesheet" id="ovic-live-search-css" href="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/extends/live-search/assets/css/live-search.min.css')}}" type="text/css" media="all" />
     <link rel="stylesheet" id="ovic-rating-css" href="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/extends/post-rating/post-rating.css')}}" type="text/css" media="all" />
@@ -764,16 +764,16 @@
                 padding: 2px 0px;
             }
         }
-        body.home .fullwidth-template,
-        .header-banner {
-            border-top: 20px solid #000 !important;
-        }
+        /*body.home .fullwidth-template,*/
+        /*.header-banner {*/
+        /*    border-top: 20px solid #000 !important;*/
+        /*}*/
         .header-banner {
             border-top-color: #000 !important;
         }
         .mobile-footer {
-            background-color: #ff0000;
-            border-top: 1px solid #ff0000;
+            background-color: #032147;
+            border-top: 1px solid #032147;
             color: #ffffff;
             z-index: 41;
         }
@@ -1307,13 +1307,13 @@
             position: fixed;
             text-decoration: none;
             z-index: 9999999999;
-            width: 60px;
-            height: 60px;
+            width: 40px;
+            height: 40px;
             border-radius: 50%; /*transform: scale(0.8);*/
             left: 20px;
-            bottom: 20px;
+            bottom: 62px;
             background: url( data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNDU5cHgiIGhlaWdodD0iNDU5cHgiIHZpZXdCb3g9IjAgMCA0NTkgNDU5IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0NTkgNDU5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PGc+PGcgaWQ9ImNhbGwiPjxwYXRoIHN0eWxlPSJmaWxsOiB3aGl0ZTsiIGQ9Ik05MS44LDE5OC45YzM1LjcsNzEuNCw5Ni45LDEzMC4wNSwxNjguMywxNjguM0wzMTYuMiwzMTEuMWM3LjY0OS03LjY0OSwxNy44NS0xMC4xOTksMjUuNS01LjFjMjguMDUsMTAuMiw1OC42NDksMTUuMyw5MS44LDE1LjNjMTUuMywwLDI1LjUsMTAuMiwyNS41LDI1LjV2ODYuN2MwLDE1LjMtMTAuMiwyNS41LTI1LjUsMjUuNUMxOTMuOCw0NTksMCwyNjUuMiwwLDI1LjVDMCwxMC4yLDEwLjIsMCwyNS41LDBoODkuMjVjMTUuMywwLDI1LjUsMTAuMiwyNS41LDI1LjVjMCwzMC42LDUuMSw2MS4yLDE1LjMsOTEuOGMyLjU1LDcuNjUsMCwxNy44NS01LjEsMjUuNUw5MS44LDE5OC45eiIvPjwvZz48L2c+PC9zdmc+ )
-            center/30px 30px no-repeat #e30303 !important;
+            center/30px 30px no-repeat #032147 !important;
         }
     </style>
     <script>
@@ -1334,7 +1334,6 @@
         }
     </style>
     <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
-    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://fakruddin.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen" /><![endif]-->
     <meta name="generator" content="Optimole 2.5.6" />
     <style type="text/css">
         img[data-opt-src]:not([data-opt-lazy-loaded]) {
@@ -1396,10 +1395,10 @@
         });
     </script>
     <meta name="generator" content="Powered by Slider Revolution 6.1.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-{{--    <link rel="icon" href="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw--QsUar0k/w_32/h_32/q_auto/https_/fakruddin.com/wp-content/uploads/2020/11/cropped-f-icon-1.png" sizes="32x32" />--}}
-{{--    <link rel="icon" href="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw--QsUar0k/w_192/h_192/q_auto/https_/fakruddin.com/wp-content/uploads/2020/11/cropped-f-icon-1.png" sizes="192x192" />--}}
-{{--    <link rel="apple-touch-icon-precomposed" href="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw--QsUar0k/w_180/h_180/q_auto/https_/fakruddin.com/wp-content/uploads/2020/11/cropped-f-icon-1.png" />--}}
-{{--    <meta name="msapplication-TileImage" content="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw--QsUar0k/w:270/h:270/q:auto/https://fakruddin.com/wp-content/uploads/2020/11/cropped-f-icon-1.png" />--}}
+    {{--    <link rel="icon" href="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw--QsUar0k/w_32/h_32/q_auto/https_/fakruddin.com/wp-content/uploads/2020/11/cropped-f-icon-1.png" sizes="32x32" />--}}
+    {{--    <link rel="icon" href="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw--QsUar0k/w_192/h_192/q_auto/https_/fakruddin.com/wp-content/uploads/2020/11/cropped-f-icon-1.png" sizes="192x192" />--}}
+    {{--    <link rel="apple-touch-icon-precomposed" href="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw--QsUar0k/w_180/h_180/q_auto/https_/fakruddin.com/wp-content/uploads/2020/11/cropped-f-icon-1.png" />--}}
+    {{--    <meta name="msapplication-TileImage" content="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw--QsUar0k/w:270/h:270/q:auto/https://fakruddin.com/wp-content/uploads/2020/11/cropped-f-icon-1.png" />--}}
     <script type="text/javascript">
         function setREVStartSize(a) {
             try {
@@ -1650,31 +1649,31 @@
 
             <input type="hidden" name="taxonomy" value="product_cat" />
 
-            <div class="category">
-                <select name="product_cat" id="212551814" class="category-search-option" tabindex="1">
-                    <option value="0">All Categories</option>
-                    <option class="level-0" value="catering">Catering</option>
-                    <option class="level-1" value="bride-bridegroom">&nbsp;&nbsp;&nbsp;Bride &amp; Bridegroom</option>
-                    <option class="level-1" value="corporate-menu">&nbsp;&nbsp;&nbsp;Corporate Menu</option>
-                    <option class="level-1" value="desert">&nbsp;&nbsp;&nbsp;Dessert</option>
-                    <option class="level-1" value="driver-menu-packet">&nbsp;&nbsp;&nbsp;Driver Packet Menu</option>
-                    <option class="level-1" value="gaye-holud-special">&nbsp;&nbsp;&nbsp;Gaye Holud Special</option>
-                    <option class="level-1" value="kabab">&nbsp;&nbsp;&nbsp;Kabab</option>
-                    <option class="level-1" value="salad">&nbsp;&nbsp;&nbsp;Salad</option>
-                    <option class="level-1" value="snakes-box">&nbsp;&nbsp;&nbsp;Snacks Box</option>
-                    <option class="level-1" value="wedding-menu">&nbsp;&nbsp;&nbsp;Wedding Menu</option>
-                    <option class="level-0" value="frozen-food">Frozen Food</option>
-                    <option class="level-0" value="iftar-bazar">Iftar Bazaar</option>
-                    <option class="level-0" value="popular">Popular</option>
-                    <option class="level-0" value="restaurant-menu">Restaurant Menu</option>
-                    <option class="level-1" value="biriyani">&nbsp;&nbsp;&nbsp;Biryani</option>
-                    <option class="level-1" value="borhani">&nbsp;&nbsp;&nbsp;Borhani</option>
-                    <option class="level-1" value="chatni">&nbsp;&nbsp;&nbsp;Chatni</option>
-                    <option class="level-1" value="roast">&nbsp;&nbsp;&nbsp;Chicken</option>
-                    <option class="level-0" value="spices">Spices</option>
-                    <option class="level-0" value="sweets">Sweets</option>
-                </select>
-            </div>
+            {{--            <div class="category">--}}
+            {{--                <select name="product_cat" id="212551814" class="category-search-option" tabindex="1">--}}
+            {{--                    <option value="0">All Categories</option>--}}
+            {{--                    <option class="level-0" value="catering">Catering</option>--}}
+            {{--                    <option class="level-1" value="bride-bridegroom">&nbsp;&nbsp;&nbsp;Bride &amp; Bridegroom</option>--}}
+            {{--                    <option class="level-1" value="corporate-menu">&nbsp;&nbsp;&nbsp;Corporate Menu</option>--}}
+            {{--                    <option class="level-1" value="desert">&nbsp;&nbsp;&nbsp;Dessert</option>--}}
+            {{--                    <option class="level-1" value="driver-menu-packet">&nbsp;&nbsp;&nbsp;Driver Packet Menu</option>--}}
+            {{--                    <option class="level-1" value="gaye-holud-special">&nbsp;&nbsp;&nbsp;Gaye Holud Special</option>--}}
+            {{--                    <option class="level-1" value="kabab">&nbsp;&nbsp;&nbsp;Kabab</option>--}}
+            {{--                    <option class="level-1" value="salad">&nbsp;&nbsp;&nbsp;Salad</option>--}}
+            {{--                    <option class="level-1" value="snakes-box">&nbsp;&nbsp;&nbsp;Snacks Box</option>--}}
+            {{--                    <option class="level-1" value="wedding-menu">&nbsp;&nbsp;&nbsp;Wedding Menu</option>--}}
+            {{--                    <option class="level-0" value="frozen-food">Frozen Food</option>--}}
+            {{--                    <option class="level-0" value="iftar-bazar">Iftar Bazaar</option>--}}
+            {{--                    <option class="level-0" value="popular">Popular</option>--}}
+            {{--                    <option class="level-0" value="restaurant-menu">Restaurant Menu</option>--}}
+            {{--                    <option class="level-1" value="biriyani">&nbsp;&nbsp;&nbsp;Biryani</option>--}}
+            {{--                    <option class="level-1" value="borhani">&nbsp;&nbsp;&nbsp;Borhani</option>--}}
+            {{--                    <option class="level-1" value="chatni">&nbsp;&nbsp;&nbsp;Chatni</option>--}}
+            {{--                    <option class="level-1" value="roast">&nbsp;&nbsp;&nbsp;Chicken</option>--}}
+            {{--                    <option class="level-0" value="spices">Spices</option>--}}
+            {{--                    <option class="level-0" value="sweets">Sweets</option>--}}
+            {{--                </select>--}}
+            {{--            </div>--}}
 
             <button type="submit" class="btn-submit">
                 <span class="flaticon-magnifying-glass"></span>
@@ -1698,9 +1697,9 @@
                 <div class="logo">
                     <a href="index.html">
                         <img
-                            data-opt-src="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-LnsMQDH-/w:auto/h:auto/q:auto/https://fakruddin.com/wp-content/uploads/2019/06/Asset-2-white.png"
+                            data-opt-src="{{asset('assets/front-end')}}/images/logo-khan-mobile.png"
                             alt="khanemajlis"
-                            src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-LnsMQDH-/w_auto/h_auto/q_eco/https_/fakruddin.com/wp-content/uploads/2019/06/Asset-2-white.svg"
+                            src="{{asset('assets/front-end')}}/images/logo-khan-mobile.png"
                             class="_rw"
                         />
                         <noscript><img alt="khanemajlis" src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-LnsMQDH-/w_auto/h_auto/q_auto/https_/fakruddin.com/wp-content/uploads/2019/06/Asset-2-white.png" class="_rw" /></noscript>
@@ -1718,31 +1717,31 @@
 
                                     <input type="hidden" name="taxonomy" value="product_cat" />
 
-                                    <div class="category">
-                                        <select name="product_cat" id="1551493192" class="category-search-option" tabindex="1">
-                                            <option value="0">All Categories</option>
-                                            <option class="level-0" value="catering">Catering</option>
-                                            <option class="level-1" value="bride-bridegroom">&nbsp;&nbsp;&nbsp;Bride &amp; Bridegroom</option>
-                                            <option class="level-1" value="corporate-menu">&nbsp;&nbsp;&nbsp;Corporate Menu</option>
-                                            <option class="level-1" value="desert">&nbsp;&nbsp;&nbsp;Dessert</option>
-                                            <option class="level-1" value="driver-menu-packet">&nbsp;&nbsp;&nbsp;Driver Packet Menu</option>
-                                            <option class="level-1" value="gaye-holud-special">&nbsp;&nbsp;&nbsp;Gaye Holud Special</option>
-                                            <option class="level-1" value="kabab">&nbsp;&nbsp;&nbsp;Kabab</option>
-                                            <option class="level-1" value="salad">&nbsp;&nbsp;&nbsp;Salad</option>
-                                            <option class="level-1" value="snakes-box">&nbsp;&nbsp;&nbsp;Snacks Box</option>
-                                            <option class="level-1" value="wedding-menu">&nbsp;&nbsp;&nbsp;Wedding Menu</option>
-                                            <option class="level-0" value="frozen-food">Frozen Food</option>
-                                            <option class="level-0" value="iftar-bazar">Iftar Bazaar</option>
-                                            <option class="level-0" value="popular">Popular</option>
-                                            <option class="level-0" value="restaurant-menu">Restaurant Menu</option>
-                                            <option class="level-1" value="biriyani">&nbsp;&nbsp;&nbsp;Biryani</option>
-                                            <option class="level-1" value="borhani">&nbsp;&nbsp;&nbsp;Borhani</option>
-                                            <option class="level-1" value="chatni">&nbsp;&nbsp;&nbsp;Chatni</option>
-                                            <option class="level-1" value="roast">&nbsp;&nbsp;&nbsp;Chicken</option>
-                                            <option class="level-0" value="spices">Spices</option>
-                                            <option class="level-0" value="sweets">Sweets</option>
-                                        </select>
-                                    </div>
+                                    {{--                                    <div class="category">--}}
+                                    {{--                                        <select name="product_cat" id="1551493192" class="category-search-option" tabindex="1">--}}
+                                    {{--                                            <option value="0">All Categories</option>--}}
+                                    {{--                                            <option class="level-0" value="catering">Catering</option>--}}
+                                    {{--                                            <option class="level-1" value="bride-bridegroom">&nbsp;&nbsp;&nbsp;Bride &amp; Bridegroom</option>--}}
+                                    {{--                                            <option class="level-1" value="corporate-menu">&nbsp;&nbsp;&nbsp;Corporate Menu</option>--}}
+                                    {{--                                            <option class="level-1" value="desert">&nbsp;&nbsp;&nbsp;Dessert</option>--}}
+                                    {{--                                            <option class="level-1" value="driver-menu-packet">&nbsp;&nbsp;&nbsp;Driver Packet Menu</option>--}}
+                                    {{--                                            <option class="level-1" value="gaye-holud-special">&nbsp;&nbsp;&nbsp;Gaye Holud Special</option>--}}
+                                    {{--                                            <option class="level-1" value="kabab">&nbsp;&nbsp;&nbsp;Kabab</option>--}}
+                                    {{--                                            <option class="level-1" value="salad">&nbsp;&nbsp;&nbsp;Salad</option>--}}
+                                    {{--                                            <option class="level-1" value="snakes-box">&nbsp;&nbsp;&nbsp;Snacks Box</option>--}}
+                                    {{--                                            <option class="level-1" value="wedding-menu">&nbsp;&nbsp;&nbsp;Wedding Menu</option>--}}
+                                    {{--                                            <option class="level-0" value="frozen-food">Frozen Food</option>--}}
+                                    {{--                                            <option class="level-0" value="iftar-bazar">Iftar Bazaar</option>--}}
+                                    {{--                                            <option class="level-0" value="popular">Popular</option>--}}
+                                    {{--                                            <option class="level-0" value="restaurant-menu">Restaurant Menu</option>--}}
+                                    {{--                                            <option class="level-1" value="biriyani">&nbsp;&nbsp;&nbsp;Biryani</option>--}}
+                                    {{--                                            <option class="level-1" value="borhani">&nbsp;&nbsp;&nbsp;Borhani</option>--}}
+                                    {{--                                            <option class="level-1" value="chatni">&nbsp;&nbsp;&nbsp;Chatni</option>--}}
+                                    {{--                                            <option class="level-1" value="roast">&nbsp;&nbsp;&nbsp;Chicken</option>--}}
+                                    {{--                                            <option class="level-0" value="spices">Spices</option>--}}
+                                    {{--                                            <option class="level-0" value="sweets">Sweets</option>--}}
+                                    {{--                                        </select>--}}
+                                    {{--                                    </div>--}}
 
                                     <div class="form-content search-box results-search">
                                         <div class="inner">
@@ -1790,7 +1789,7 @@
 
                             <span>
                                         <a href="https:https://www.instagram.com/khanemajlis/">
-                                            <span class="fa fa-instagram"></span>
+                                            <span  class="fa fa-instagram"></span>
                                         </a>
                                     </span>
                         </li>
@@ -1811,7 +1810,7 @@
         <div class="container">
             <div class="header-middle-inner header-responsive">
                 <div class="logo">
-                    <a href="index.html"><img alt="Khanemajlish" src="{{asset('assets/front-end')}}/images/logo-khan.png" class="_rw" /></a>
+                    <a href="#"><img alt="Khanemajlish" src="{{asset('assets/front-end')}}/images/logo-khan.png" class="_rw" /></a>
                 </div>
 
                 <div class="box-header-nav">
@@ -1830,8 +1829,8 @@
                                     </ul>
                                 </li>
                                 <li id="menu-item-2863" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2863"><a href="our-gallery/index.html">Gallery</a></li>
-                                <li id="menu-item-2707" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2707"><a href="contact-us/index.html">Contact</a></li>
-                                <li id="menu-item-14080" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14080"><a href="emi-payment-terms-condition/index.html">Buy in EMI</a></li>
+{{--                                <li id="menu-item-2707" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2707"><a href="contact-us/index.html">Contact</a></li>--}}
+{{--                                <li id="menu-item-14080" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14080"><a href="emi-payment-terms-condition/index.html">Buy in EMI</a></li>--}}
                             </ul>
                         </div>
                     </div>
@@ -1852,31 +1851,31 @@
 
                                     <input type="hidden" name="taxonomy" value="product_cat" />
 
-                                    <div class="category">
-                                        <select name="product_cat" id="1387619614" class="category-search-option" tabindex="1">
-                                            <option value="0">All Categories</option>
-                                            <option class="level-0" value="catering">Catering</option>
-                                            <option class="level-1" value="bride-bridegroom">&nbsp;&nbsp;&nbsp;Bride &amp; Bridegroom</option>
-                                            <option class="level-1" value="corporate-menu">&nbsp;&nbsp;&nbsp;Corporate Menu</option>
-                                            <option class="level-1" value="desert">&nbsp;&nbsp;&nbsp;Dessert</option>
-                                            <option class="level-1" value="driver-menu-packet">&nbsp;&nbsp;&nbsp;Driver Packet Menu</option>
-                                            <option class="level-1" value="gaye-holud-special">&nbsp;&nbsp;&nbsp;Gaye Holud Special</option>
-                                            <option class="level-1" value="kabab">&nbsp;&nbsp;&nbsp;Kabab</option>
-                                            <option class="level-1" value="salad">&nbsp;&nbsp;&nbsp;Salad</option>
-                                            <option class="level-1" value="snakes-box">&nbsp;&nbsp;&nbsp;Snacks Box</option>
-                                            <option class="level-1" value="wedding-menu">&nbsp;&nbsp;&nbsp;Wedding Menu</option>
-                                            <option class="level-0" value="frozen-food">Frozen Food</option>
-                                            <option class="level-0" value="iftar-bazar">Iftar Bazaar</option>
-                                            <option class="level-0" value="popular">Popular</option>
-                                            <option class="level-0" value="restaurant-menu">Restaurant Menu</option>
-                                            <option class="level-1" value="biriyani">&nbsp;&nbsp;&nbsp;Biryani</option>
-                                            <option class="level-1" value="borhani">&nbsp;&nbsp;&nbsp;Borhani</option>
-                                            <option class="level-1" value="chatni">&nbsp;&nbsp;&nbsp;Chatni</option>
-                                            <option class="level-1" value="roast">&nbsp;&nbsp;&nbsp;Chicken</option>
-                                            <option class="level-0" value="spices">Spices</option>
-                                            <option class="level-0" value="sweets">Sweets</option>
-                                        </select>
-                                    </div>
+                                    {{--                                    <div class="category">--}}
+                                    {{--                                        <select name="product_cat" id="1387619614" class="category-search-option" tabindex="1">--}}
+                                    {{--                                            <option value="0">All Categories</option>--}}
+                                    {{--                                            <option class="level-0" value="catering">Catering</option>--}}
+                                    {{--                                            <option class="level-1" value="bride-bridegroom">&nbsp;&nbsp;&nbsp;Bride &amp; Bridegroom</option>--}}
+                                    {{--                                            <option class="level-1" value="corporate-menu">&nbsp;&nbsp;&nbsp;Corporate Menu</option>--}}
+                                    {{--                                            <option class="level-1" value="desert">&nbsp;&nbsp;&nbsp;Dessert</option>--}}
+                                    {{--                                            <option class="level-1" value="driver-menu-packet">&nbsp;&nbsp;&nbsp;Driver Packet Menu</option>--}}
+                                    {{--                                            <option class="level-1" value="gaye-holud-special">&nbsp;&nbsp;&nbsp;Gaye Holud Special</option>--}}
+                                    {{--                                            <option class="level-1" value="kabab">&nbsp;&nbsp;&nbsp;Kabab</option>--}}
+                                    {{--                                            <option class="level-1" value="salad">&nbsp;&nbsp;&nbsp;Salad</option>--}}
+                                    {{--                                            <option class="level-1" value="snakes-box">&nbsp;&nbsp;&nbsp;Snacks Box</option>--}}
+                                    {{--                                            <option class="level-1" value="wedding-menu">&nbsp;&nbsp;&nbsp;Wedding Menu</option>--}}
+                                    {{--                                            <option class="level-0" value="frozen-food">Frozen Food</option>--}}
+                                    {{--                                            <option class="level-0" value="iftar-bazar">Iftar Bazaar</option>--}}
+                                    {{--                                            <option class="level-0" value="popular">Popular</option>--}}
+                                    {{--                                            <option class="level-0" value="restaurant-menu">Restaurant Menu</option>--}}
+                                    {{--                                            <option class="level-1" value="biriyani">&nbsp;&nbsp;&nbsp;Biryani</option>--}}
+                                    {{--                                            <option class="level-1" value="borhani">&nbsp;&nbsp;&nbsp;Borhani</option>--}}
+                                    {{--                                            <option class="level-1" value="chatni">&nbsp;&nbsp;&nbsp;Chatni</option>--}}
+                                    {{--                                            <option class="level-1" value="roast">&nbsp;&nbsp;&nbsp;Chicken</option>--}}
+                                    {{--                                            <option class="level-0" value="spices">Spices</option>--}}
+                                    {{--                                            <option class="level-0" value="sweets">Sweets</option>--}}
+                                    {{--                                        </select>--}}
+                                    {{--                                    </div>--}}
 
                                     <button type="submit" class="btn-submit">
                                         <span class="flaticon-magnifying-glass"></span>
@@ -1993,14 +1992,14 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li id="menu-item-2937" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2937">
-                                    <a href="product-category/spices/index.html"><span class="icon icon-font fa fa-envira"></span>Spices</a>
-                                </li>
-                                <li id="menu-item-2936" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2936">
-                                    <a href="product-category/sweets/index.html"><span class="icon icon-font fa fa-birthday-cake"></span>Sweets</a>
-                                </li>
+{{--                                <li id="menu-item-2937" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2937">--}}
+{{--                                    <a href="product-category/spices/index.html"><span class="icon icon-font fa fa-envira"></span>Spices</a>--}}
+{{--                                </li>--}}
+{{--                                <li id="menu-item-2936" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2936">--}}
+{{--                                    <a href="product-category/sweets/index.html"><span class="icon icon-font fa fa-birthday-cake"></span>Sweets</a>--}}
+{{--                                </li>--}}
                                 <li id="menu-item-2935" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-2935">
-                                    <a href="product-category/frozen-food/index.html"><span class="icon icon-font fa fa-snowflake-o"></span>Frozen Food</a>
+                                    <a href="product-category/frozen-food/index.html"><span class="icon icon-font fa fa-phone-o"></span>Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -2020,31 +2019,31 @@
 
                         <input type="hidden" name="taxonomy" value="product_cat" />
 
-                        <div class="category">
-                            <select name="product_cat" id="1545705732" class="category-search-option" tabindex="1">
-                                <option value="0">All Categories</option>
-                                <option class="level-0" value="catering">Catering</option>
-                                <option class="level-1" value="bride-bridegroom">&nbsp;&nbsp;&nbsp;Bride &amp; Bridegroom</option>
-                                <option class="level-1" value="corporate-menu">&nbsp;&nbsp;&nbsp;Corporate Menu</option>
-                                <option class="level-1" value="desert">&nbsp;&nbsp;&nbsp;Dessert</option>
-                                <option class="level-1" value="driver-menu-packet">&nbsp;&nbsp;&nbsp;Driver Packet Menu</option>
-                                <option class="level-1" value="gaye-holud-special">&nbsp;&nbsp;&nbsp;Gaye Holud Special</option>
-                                <option class="level-1" value="kabab">&nbsp;&nbsp;&nbsp;Kabab</option>
-                                <option class="level-1" value="salad">&nbsp;&nbsp;&nbsp;Salad</option>
-                                <option class="level-1" value="snakes-box">&nbsp;&nbsp;&nbsp;Snacks Box</option>
-                                <option class="level-1" value="wedding-menu">&nbsp;&nbsp;&nbsp;Wedding Menu</option>
-                                <option class="level-0" value="frozen-food">Frozen Food</option>
-                                <option class="level-0" value="iftar-bazar">Iftar Bazaar</option>
-                                <option class="level-0" value="popular">Popular</option>
-                                <option class="level-0" value="restaurant-menu">Restaurant Menu</option>
-                                <option class="level-1" value="biriyani">&nbsp;&nbsp;&nbsp;Biryani</option>
-                                <option class="level-1" value="borhani">&nbsp;&nbsp;&nbsp;Borhani</option>
-                                <option class="level-1" value="chatni">&nbsp;&nbsp;&nbsp;Chatni</option>
-                                <option class="level-1" value="roast">&nbsp;&nbsp;&nbsp;Chicken</option>
-                                <option class="level-0" value="spices">Spices</option>
-                                <option class="level-0" value="sweets">Sweets</option>
-                            </select>
-                        </div>
+                        {{--                        <div class="category">--}}
+                        {{--                            <select name="product_cat" id="1545705732" class="category-search-option" tabindex="1">--}}
+                        {{--                                <option value="0">All Categories</option>--}}
+                        {{--                                <option class="level-0" value="catering">Catering</option>--}}
+                        {{--                                <option class="level-1" value="bride-bridegroom">&nbsp;&nbsp;&nbsp;Bride &amp; Bridegroom</option>--}}
+                        {{--                                <option class="level-1" value="corporate-menu">&nbsp;&nbsp;&nbsp;Corporate Menu</option>--}}
+                        {{--                                <option class="level-1" value="desert">&nbsp;&nbsp;&nbsp;Dessert</option>--}}
+                        {{--                                <option class="level-1" value="driver-menu-packet">&nbsp;&nbsp;&nbsp;Driver Packet Menu</option>--}}
+                        {{--                                <option class="level-1" value="gaye-holud-special">&nbsp;&nbsp;&nbsp;Gaye Holud Special</option>--}}
+                        {{--                                <option class="level-1" value="kabab">&nbsp;&nbsp;&nbsp;Kabab</option>--}}
+                        {{--                                <option class="level-1" value="salad">&nbsp;&nbsp;&nbsp;Salad</option>--}}
+                        {{--                                <option class="level-1" value="snakes-box">&nbsp;&nbsp;&nbsp;Snacks Box</option>--}}
+                        {{--                                <option class="level-1" value="wedding-menu">&nbsp;&nbsp;&nbsp;Wedding Menu</option>--}}
+                        {{--                                <option class="level-0" value="frozen-food">Frozen Food</option>--}}
+                        {{--                                <option class="level-0" value="iftar-bazar">Iftar Bazaar</option>--}}
+                        {{--                                <option class="level-0" value="popular">Popular</option>--}}
+                        {{--                                <option class="level-0" value="restaurant-menu">Restaurant Menu</option>--}}
+                        {{--                                <option class="level-1" value="biriyani">&nbsp;&nbsp;&nbsp;Biryani</option>--}}
+                        {{--                                <option class="level-1" value="borhani">&nbsp;&nbsp;&nbsp;Borhani</option>--}}
+                        {{--                                <option class="level-1" value="chatni">&nbsp;&nbsp;&nbsp;Chatni</option>--}}
+                        {{--                                <option class="level-1" value="roast">&nbsp;&nbsp;&nbsp;Chicken</option>--}}
+                        {{--                                <option class="level-0" value="spices">Spices</option>--}}
+                        {{--                                <option class="level-0" value="sweets">Sweets</option>--}}
+                        {{--                            </select>--}}
+                        {{--                        </div>--}}
 
                         <button type="submit" class="btn-submit">
                             <span class="flaticon-magnifying-glass"></span>
@@ -2058,7 +2057,7 @@
                         <span class="icon fa fa-phone"></span>
 
                         <div class="group-text">
-                            <span class="header-text-1">(+880) 174 000 0004, (+880) 171 555 3330</span>
+                            <span class="header-text-1">(+880) 1937 990 932,(+880) 1937 990 933</span>
 
                             <span class="header-text-2">Sat-Fri: 10:00am-10:00pm; (GMT+6 BD time)</span>
                         </div>
@@ -2085,13 +2084,13 @@
                                             <rs-slide
                                                 data-key="rs-28"
                                                 data-title="Slide"
-                                                data-thumb="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-xZI8Zms5/w:100/h:50/q:auto/rt:fill/g:ce/https://fakruddin.com/wp-content/uploads/2019/11/Frozen-Foods.png"
+                                                data-thumb="{{asset('assets/front-end/images')}}/sliders/1.jpg"
                                                 data-duration="8000"
                                                 data-anim="ei:d;eo:d;s:d;r:0;t:cube;sl:d;"
                                                 class="home-slide-org"
                                             >
                                                 <img
-                                                    src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-xZI8Zms5/w_1920/h_1080/q_auto/https_/fakruddin.com/wp-content/uploads/2019/11/Frozen-Foods.png"
+                                                    src="{{asset('assets/front-end/images')}}/sliders/1.jpg"
                                                     title="Frozen-Foods"
                                                     width="1920"
                                                     height="1080"
@@ -2104,13 +2103,13 @@
                                             <rs-slide
                                                 data-key="rs-24"
                                                 data-title="Slide"
-                                                data-thumb="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-mjGROFOk/w:100/h:50/q:auto/rt:fill/g:ce/https://fakruddin.com/wp-content/uploads/2019/06/slider-1-top-01.jpg"
+                                                data-thumb="{{asset('assets/front-end/images')}}/sliders/2.jpg"
                                                 data-duration="8000"
                                                 data-anim="ei:d;eo:d;s:d;r:0;t:cube;sl:d;"
                                                 class="home-slide-org"
                                             >
                                                 <img
-                                                    src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-mjGROFOk/w_auto/h_auto/q_auto/https_/fakruddin.com/wp-content/uploads/2019/06/slider-1-top-01.jpg"
+                                                    src="{{asset('assets/front-end/images')}}/sliders/2.jpg"
                                                     title="Home 06"
                                                     class="rev-slidebg"
                                                     data-no-retina
@@ -2152,50 +2151,49 @@
                                                 <!--
 
 							-->
-                                                <a
-                                                    id="slider-10-slide-24-layer-5"
-                                                    class="rs-layer rev-btn"
-                                                    href="product-category/spices/index.html"
-                                                    target="_blank"
-                                                    data-type="button"
-                                                    data-color="#ffffff"
-                                                    data-xy="x:236px;y:330px;"
-                                                    data-text="s:14;l:14;fw:700;a:inherit;"
-                                                    data-padding="t:11;r:30;b:12;l:30;"
-                                                    data-border="bos:solid;boc:#ffffff;bow:2,2,2,2;bor:30px,30px,30px,30px;"
-                                                    data-frame_0="y:-50px;tp:600;"
-                                                    data-frame_1="tp:600;st:380;sp:2300;sR:380;"
-                                                    data-frame_999="o:0;tp:600;st:4910;sp:2300;sR:2230;"
-                                                    data-frame_hover="c:#032147;bgc:rgba(255,255,255,0);boc:#032147;bor:30px,30px,30px,30px;bos:solid;bow:2,2,2,2;oX:50;oY:50;sp:450;"
-                                                    style="
-                                                                z-index: 7;
-                                                                background-color: rgba(255, 255, 255, 0);
-                                                                font-family: Cairo;
-                                                                text-transform: uppercase;
-                                                                cursor: pointer;
-                                                                outline: none;
-                                                                box-shadow: none;
-                                                                box-sizing: border-box;
-                                                                -moz-box-sizing: border-box;
-                                                                -webkit-box-sizing: border-box;
-                                                            "
-                                                >
-                                                    View More
-                                                </a>
-                                                <!--
+                                            {{--                                                <a--}}
+                                            {{--                                                    id="slider-10-slide-24-layer-5"--}}
+                                            {{--                                                    class="rs-layer rev-btn"--}}
+                                            {{--                                                    href="product-category/spices/index.html"--}}
+                                            {{--                                                    target="_blank"--}}
+                                            {{--                                                    data-type="button"--}}
+                                            {{--                                                    data-color="#ffffff"--}}
+                                            {{--                                                    data-xy="x:236px;y:330px;"--}}
+                                            {{--                                                    data-text="s:14;l:14;fw:700;a:inherit;"--}}
+                                            {{--                                                    data-padding="t:11;r:30;b:12;l:30;"--}}
+                                            {{--                                                    data-border="bos:solid;boc:#ffffff;bow:2,2,2,2;bor:30px,30px,30px,30px;"--}}
+                                            {{--                                                    data-frame_0="y:-50px;tp:600;"--}}
+                                            {{--                                                    data-frame_1="tp:600;st:380;sp:2300;sR:380;"--}}
+                                            {{--                                                    data-frame_999="o:0;tp:600;st:4910;sp:2300;sR:2230;"--}}
+                                            {{--                                                    data-frame_hover="c:#032147;bgc:rgba(255,255,255,0);boc:#032147;bor:30px,30px,30px,30px;bos:solid;bow:2,2,2,2;oX:50;oY:50;sp:450;"--}}
+                                            {{--                                                    style="--}}
+                                            {{--                                                                z-index: 7;--}}
+                                            {{--                                                                background-color: rgba(255, 255, 255, 0);--}}
+                                            {{--                                                                font-family: Cairo;--}}
+                                            {{--                                                                text-transform: uppercase;--}}
+                                            {{--                                                                cursor: pointer;--}}
+                                            {{--                                                                outline: none;--}}
+                                            {{--                                                                box-shadow: none;--}}
+                                            {{--                                                                box-sizing: border-box;--}}
+                                            {{--                                                                -moz-box-sizing: border-box;--}}
+                                            {{--                                                                -webkit-box-sizing: border-box;--}}
+                                            {{--                                                            "--}}
+                                            {{--                                                >--}}
+                                            {{--                                                    View More--}}
+                                            {{--                                                </a>--}}
+                                            <!--
 -->
                                             </rs-slide>
                                             <rs-slide
                                                 data-key="rs-27"
                                                 data-title="Slide"
-                                                data-thumb="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-a9g1fBXe/w:100/h:50/q:auto/rt:fill/g:ce/https://fakruddin.com/wp-content/uploads/2019/10/Biryani-3.png"
+                                                data-thumb="{{asset('assets/front-end/images')}}/sliders/3.jpg"
                                                 data-duration="8000"
                                                 data-anim="ei:d;eo:d;s:d;r:0;t:cube;sl:d;"
                                                 class="home-slide-org"
                                             >
                                                 <img
-                                                    src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-a9g1fBXe/w_1920/h_783/q_auto/https_/fakruddin.com/wp-content/uploads/2019/10/Biryani-3.png"
-                                                    title="Biryani-3"
+                                                    src="{{asset('assets/front-end/images')}}/sliders/3.jpg"                                                    title="Biryani-3"
                                                     width="1920"
                                                     height="783"
                                                     class="rev-slidebg"
@@ -2216,7 +2214,7 @@
                                                     data-frame_999="st:5150;sp:1300;auto:true;"
                                                     style="z-index: 5; font-family: Cairo; text-transform: uppercase;"
                                                 >
-                                                    Fakruddin
+                                                    Khan E Majlis
                                                 </rs-layer>
                                                 <!--
 
@@ -2233,42 +2231,41 @@
                                                     data-frame_999="st:5150;sp:1300;auto:true;"
                                                     style="z-index: 6; font-family: Cairo; text-transform: uppercase;"
                                                 >
-                                                    Biryani
                                                 </rs-layer>
                                                 <!--
 
 							-->
-                                                <a
-                                                    id="slider-10-slide-27-layer-5"
-                                                    class="rs-layer rev-btn"
-                                                    href="product-category/catering/index.html"
-                                                    target="_blank"
-                                                    data-type="button"
-                                                    data-color="#ffffff"
-                                                    data-xy="x:236px;y:330px;"
-                                                    data-text="s:14;l:14;fw:700;a:inherit;"
-                                                    data-padding="t:11;r:30;b:12;l:30;"
-                                                    data-border="bos:solid;boc:#ffffff;bow:2,2,2,2;bor:30px,30px,30px,30px;"
-                                                    data-frame_0="y:-50px;tp:600;"
-                                                    data-frame_1="tp:600;st:380;sp:2300;sR:380;"
-                                                    data-frame_999="o:0;tp:600;st:4910;sp:2300;sR:2230;"
-                                                    data-frame_hover="c:#032147;bgc:rgba(255,255,255,0);boc:#032147;bor:30px,30px,30px,30px;bos:solid;bow:2,2,2,2;oX:50;oY:50;sp:450;"
-                                                    style="
-                                                                z-index: 7;
-                                                                background-color: rgba(255, 255, 255, 0);
-                                                                font-family: Cairo;
-                                                                text-transform: uppercase;
-                                                                cursor: pointer;
-                                                                outline: none;
-                                                                box-shadow: none;
-                                                                box-sizing: border-box;
-                                                                -moz-box-sizing: border-box;
-                                                                -webkit-box-sizing: border-box;
-                                                            "
-                                                >
-                                                    View More
-                                                </a>
-                                                <!--
+                                            {{--                                                <a--}}
+                                            {{--                                                    id="slider-10-slide-27-layer-5"--}}
+                                            {{--                                                    class="rs-layer rev-btn"--}}
+                                            {{--                                                    href="product-category/catering/index.html"--}}
+                                            {{--                                                    target="_blank"--}}
+                                            {{--                                                    data-type="button"--}}
+                                            {{--                                                    data-color="#ffffff"--}}
+                                            {{--                                                    data-xy="x:236px;y:330px;"--}}
+                                            {{--                                                    data-text="s:14;l:14;fw:700;a:inherit;"--}}
+                                            {{--                                                    data-padding="t:11;r:30;b:12;l:30;"--}}
+                                            {{--                                                    data-border="bos:solid;boc:#ffffff;bow:2,2,2,2;bor:30px,30px,30px,30px;"--}}
+                                            {{--                                                    data-frame_0="y:-50px;tp:600;"--}}
+                                            {{--                                                    data-frame_1="tp:600;st:380;sp:2300;sR:380;"--}}
+                                            {{--                                                    data-frame_999="o:0;tp:600;st:4910;sp:2300;sR:2230;"--}}
+                                            {{--                                                    data-frame_hover="c:#032147;bgc:rgba(255,255,255,0);boc:#032147;bor:30px,30px,30px,30px;bos:solid;bow:2,2,2,2;oX:50;oY:50;sp:450;"--}}
+                                            {{--                                                    style="--}}
+                                            {{--                                                                z-index: 7;--}}
+                                            {{--                                                                background-color: rgba(255, 255, 255, 0);--}}
+                                            {{--                                                                font-family: Cairo;--}}
+                                            {{--                                                                text-transform: uppercase;--}}
+                                            {{--                                                                cursor: pointer;--}}
+                                            {{--                                                                outline: none;--}}
+                                            {{--                                                                box-shadow: none;--}}
+                                            {{--                                                                box-sizing: border-box;--}}
+                                            {{--                                                                -moz-box-sizing: border-box;--}}
+                                            {{--                                                                -webkit-box-sizing: border-box;--}}
+                                            {{--                                                            "--}}
+                                            {{--                                                >--}}
+                                            {{--                                                    View More--}}
+                                            {{--                                                </a>--}}
+                                            <!--
 -->
                                             </rs-slide>
                                         </rs-slides>
@@ -2356,89 +2353,89 @@
                                 </rs-module-wrap>
                                 <!-- END REVOLUTION SLIDER -->
                             </div>
-                            <div class="wpb_raw_code wpb_content_element wpb_raw_html cat-menu-box cat-menu-box ovic_custom_609a81acaf71c">
-                                <div class="wpb_wrapper">
-                                    <div class="cat-menu-box-center">
-                                        <a href="product-category/catering/index.html" class="a">
-                                            <img
-                                                data-opt-src="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-CJKWSFg4/w:auto/h:auto/q:auto/https://fakruddin.com/wp-content/themes/biolife/assets/images/FAKRU%20restaurant%20icon%201.svg"
-                                                class="optimole-lazy-only"
-                                                src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20100%%20100%%22%20width%3D%22100%%22%20height%3D%22100%%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
-                                                alt="Catering"
-                                            />
-                                            <noscript>
-                                                <img
-                                                    src="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-CJKWSFg4/w:auto/h:auto/q:auto/https://fakruddin.com/wp-content/themes/biolife/assets/images/FAKRU restaurant icon 1.svg"
-                                                    alt="Catering"
-                                                />
-                                            </noscript>
-                                            <p>Catering</p>
-                                        </a>
+                            {{--                            <div class="wpb_raw_code wpb_content_element wpb_raw_html cat-menu-box cat-menu-box ovic_custom_609a81acaf71c">--}}
+                            {{--                                <div class="wpb_wrapper">--}}
+                            {{--                                    <div class="cat-menu-box-center">--}}
+                            {{--                                        <a href="product-category/catering/index.html" class="a">--}}
+                            {{--                                            <img--}}
+                            {{--                                                data-opt-src="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-CJKWSFg4/w:auto/h:auto/q:auto/https://fakruddin.com/wp-content/themes/biolife/assets/images/FAKRU%20restaurant%20icon%201.svg"--}}
+                            {{--                                                class="optimole-lazy-only"--}}
+                            {{--                                                src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20100%%20100%%22%20width%3D%22100%%22%20height%3D%22100%%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"--}}
+                            {{--                                                alt="Catering"--}}
+                            {{--                                            />--}}
+                            {{--                                            <noscript>--}}
+                            {{--                                                <img--}}
+                            {{--                                                    src="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-CJKWSFg4/w:auto/h:auto/q:auto/https://fakruddin.com/wp-content/themes/biolife/assets/images/FAKRU restaurant icon 1.svg"--}}
+                            {{--                                                    alt="Catering"--}}
+                            {{--                                                />--}}
+                            {{--                                            </noscript>--}}
+                            {{--                                            <p>Catering</p>--}}
+                            {{--                                        </a>--}}
 
-                                        <a href="product-category/spices/index.html" class="b">
-                                            <img
-                                                data-opt-src="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-UYg-3TwM/w:auto/h:auto/q:auto/https://fakruddin.com/wp-content/themes/biolife/assets/images/FAKRU%20restaurant%20icon%205.svg"
-                                                class="optimole-lazy-only"
-                                                src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20100%%20100%%22%20width%3D%22100%%22%20height%3D%22100%%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
-                                                alt="Spices"
-                                            />
-                                            <noscript>
-                                                <img
-                                                    src="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-UYg-3TwM/w:auto/h:auto/q:auto/https://fakruddin.com/wp-content/themes/biolife/assets/images/FAKRU restaurant icon 5.svg"
-                                                    alt="Spices"
-                                                />
-                                            </noscript>
-                                            <p>Spices</p>
-                                        </a>
+                            {{--                                        <a href="product-category/spices/index.html" class="b">--}}
+                            {{--                                            <img--}}
+                            {{--                                                data-opt-src="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-UYg-3TwM/w:auto/h:auto/q:auto/https://fakruddin.com/wp-content/themes/biolife/assets/images/FAKRU%20restaurant%20icon%205.svg"--}}
+                            {{--                                                class="optimole-lazy-only"--}}
+                            {{--                                                src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20100%%20100%%22%20width%3D%22100%%22%20height%3D%22100%%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"--}}
+                            {{--                                                alt="Spices"--}}
+                            {{--                                            />--}}
+                            {{--                                            <noscript>--}}
+                            {{--                                                <img--}}
+                            {{--                                                    src="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-UYg-3TwM/w:auto/h:auto/q:auto/https://fakruddin.com/wp-content/themes/biolife/assets/images/FAKRU restaurant icon 5.svg"--}}
+                            {{--                                                    alt="Spices"--}}
+                            {{--                                                />--}}
+                            {{--                                            </noscript>--}}
+                            {{--                                            <p>Spices</p>--}}
+                            {{--                                        </a>--}}
 
-                                        <a href="product-category/sweets/index.html" class="c">
-                                            <img
-                                                data-opt-src="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-pQmTBTJQ/w:auto/h:auto/q:auto/https://fakruddin.com/wp-content/themes/biolife/assets/images/FAKRU%20restaurant%20icon%202.svg"
-                                                class="optimole-lazy-only"
-                                                src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20100%%20100%%22%20width%3D%22100%%22%20height%3D%22100%%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
-                                                alt="Sweets"
-                                            />
-                                            <noscript>
-                                                <img
-                                                    src="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-pQmTBTJQ/w:auto/h:auto/q:auto/https://fakruddin.com/wp-content/themes/biolife/assets/images/FAKRU restaurant icon 2.svg"
-                                                    alt="Sweets"
-                                                />
-                                            </noscript>
-                                            <p>Sweets</p>
-                                        </a>
+                            {{--                                        <a href="product-category/sweets/index.html" class="c">--}}
+                            {{--                                            <img--}}
+                            {{--                                                data-opt-src="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-pQmTBTJQ/w:auto/h:auto/q:auto/https://fakruddin.com/wp-content/themes/biolife/assets/images/FAKRU%20restaurant%20icon%202.svg"--}}
+                            {{--                                                class="optimole-lazy-only"--}}
+                            {{--                                                src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20100%%20100%%22%20width%3D%22100%%22%20height%3D%22100%%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"--}}
+                            {{--                                                alt="Sweets"--}}
+                            {{--                                            />--}}
+                            {{--                                            <noscript>--}}
+                            {{--                                                <img--}}
+                            {{--                                                    src="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-pQmTBTJQ/w:auto/h:auto/q:auto/https://fakruddin.com/wp-content/themes/biolife/assets/images/FAKRU restaurant icon 2.svg"--}}
+                            {{--                                                    alt="Sweets"--}}
+                            {{--                                                />--}}
+                            {{--                                            </noscript>--}}
+                            {{--                                            <p>Sweets</p>--}}
+                            {{--                                        </a>--}}
 
-                                        <a href="product-category/frozen-food/index.html" class="d">
-                                            <img
-                                                data-opt-src="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-GY-4NbHY/w:auto/h:auto/q:auto/https://fakruddin.com/wp-content/uploads/2019/06/Frozen-food-alt.png"
-                                                src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-GY-4NbHY/w_auto/h_auto/q_eco/https_/fakruddin.com/wp-content/uploads/2019/06/Frozen-food-alt.svg"
-                                                alt="Frozen Food"
-                                            />
-                                            <noscript>
-                                                <img src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-GY-4NbHY/w_auto/h_auto/q_auto/https_/fakruddin.com/wp-content/uploads/2019/06/Frozen-food-alt.png" alt="Frozen Food" />
-                                            </noscript>
-                                            <p>Frozen Food</p>
-                                        </a>
+                            {{--                                        <a href="product-category/frozen-food/index.html" class="d">--}}
+                            {{--                                            <img--}}
+                            {{--                                                data-opt-src="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-GY-4NbHY/w:auto/h:auto/q:auto/https://fakruddin.com/wp-content/uploads/2019/06/Frozen-food-alt.png"--}}
+                            {{--                                                src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-GY-4NbHY/w_auto/h_auto/q_eco/https_/fakruddin.com/wp-content/uploads/2019/06/Frozen-food-alt.svg"--}}
+                            {{--                                                alt="Frozen Food"--}}
+                            {{--                                            />--}}
+                            {{--                                            <noscript>--}}
+                            {{--                                                <img src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-GY-4NbHY/w_auto/h_auto/q_auto/https_/fakruddin.com/wp-content/uploads/2019/06/Frozen-food-alt.png" alt="Frozen Food" />--}}
+                            {{--                                            </noscript>--}}
+                            {{--                                            <p>Frozen Food</p>--}}
+                            {{--                                        </a>--}}
 
-                                        <a href="restaurant-menu/index.html" class="e">
-                                            <img
-                                                data-opt-src="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-CKQHe-H3/w:auto/h:auto/q:auto/https://fakruddin.com/wp-content/themes/biolife/assets/images/FAKRU%20restaurant%20icon%204.svg"
-                                                class="optimole-lazy-only"
-                                                src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20100%%20100%%22%20width%3D%22100%%22%20height%3D%22100%%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"
-                                                alt="Restaurant"
-                                            />
-                                            <noscript>
-                                                <img
-                                                    src="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-CKQHe-H3/w:auto/h:auto/q:auto/https://fakruddin.com/wp-content/themes/biolife/assets/images/FAKRU restaurant icon 4.svg"
-                                                    alt="Restaurant"
-                                                />
-                                            </noscript>
-                                            <p>Restaurant</p>
-                                        </a>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                </div>
-                            </div>
-                            <div class="vc_empty_space ovic_custom_609a81acaf71f" style="height: 90px;"><span class="vc_empty_space_inner"></span></div>
+                            {{--                                        <a href="restaurant-menu/index.html" class="e">--}}
+                            {{--                                            <img--}}
+                            {{--                                                data-opt-src="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-CKQHe-H3/w:auto/h:auto/q:auto/https://fakruddin.com/wp-content/themes/biolife/assets/images/FAKRU%20restaurant%20icon%204.svg"--}}
+                            {{--                                                class="optimole-lazy-only"--}}
+                            {{--                                                src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20100%%20100%%22%20width%3D%22100%%22%20height%3D%22100%%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E"--}}
+                            {{--                                                alt="Restaurant"--}}
+                            {{--                                            />--}}
+                            {{--                                            <noscript>--}}
+                            {{--                                                <img--}}
+                            {{--                                                    src="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-CKQHe-H3/w:auto/h:auto/q:auto/https://fakruddin.com/wp-content/themes/biolife/assets/images/FAKRU restaurant icon 4.svg"--}}
+                            {{--                                                    alt="Restaurant"--}}
+                            {{--                                                />--}}
+                            {{--                                            </noscript>--}}
+                            {{--                                            <p>Restaurant</p>--}}
+                            {{--                                        </a>--}}
+                            {{--                                    </div>--}}
+                            {{--                                    <div class="clearfix"></div>--}}
+                            {{--                                </div>--}}
+                            {{--                            </div>--}}
+                            {{--                            <div class="vc_empty_space ovic_custom_609a81acaf71f" style="height: 90px;"><span class="vc_empty_space_inner"></span></div>--}}
                         </div>
                     </div>
                 </div>
@@ -2467,22 +2464,23 @@
                                                     alt="small-button-6"
                                                     data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw--YMKk1_w/w_auto/h_auto/q_auto/https_/fakruddin.com/wp-content/uploads/2018/08/small-button-6.png"
                                                 />
-                                                <span>Featured</span>
+                                                <span style="color:white;">Featured</span>
                                             </a>
                                         </li>
-                                        <li class="tab-link-item style4" style="color: #666666;" data-color="#222222" data-color_default="#666666">
-                                            <a class="" data-ajax="0" data-animate="fadeInRight" data-section="1559801724028-9b7ba97c-ea77" data-id="1753" href="#1559801724028-9b7ba97c-ea77-60a1ecb1a92cc">
-                                                <img
-                                                    width="129"
-                                                    height="47"
-                                                    src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22129%22%20height%3D%2247%22%20viewBox%3D%220%200%20129%2047%22%3E%3C%2Fsvg%3E"
-                                                    class="wp-post-image attachment-129x47 size-129x47 lazy"
-                                                    alt="small-button-6"
-                                                    data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw--YMKk1_w/w_auto/h_auto/q_auto/https_/fakruddin.com/wp-content/uploads/2018/08/small-button-6.png"
-                                                />
-                                                <span>Top Rated</span>
-                                            </a>
-                                        </li>
+                                        {{--                                        <li class="tab-link-item style4" style="color: #666666;" data-color="#222222" data-color_default="#666666">--}}
+                                        {{--                                            <a class="" data-ajax="0" data-animate="fadeInRight" data-section="1559801724028-9b7ba97c-ea77" data-id="1753" href="#1559801724028-9b7ba97c-ea77-60a1ecb1a92cc">--}}
+                                        {{--                                                <img--}}
+                                        {{--                                                    width="129"--}}
+                                        {{--                                                    height="47"--}}
+                                        {{--                                                    src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22129%22%20height%3D%2247%22%20viewBox%3D%220%200%20129%2047%22%3E%3C%2Fsvg%3E"--}}
+                                        {{--                                                    class="wp-post-image attachment-129x47 size-129x47 lazy"--}}
+                                        {{--                                                    alt="small-button-6"--}}
+                                        {{--                                                    data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw--YMKk1_w/w_auto/h_auto/q_auto/https_/fakruddin.com/wp-content/uploads/2018/08/small-button-6.png"--}}
+                                        {{--                                                />--}}
+                                        {{--                                                <span>Top Rated</span>--}}
+                                        {{--                                            </a>--}}
+                                        {{--                                        </li>--}}
+
                                     </ul>
                                 </div>
                                 <div class="tab-container">
@@ -2503,10 +2501,10 @@
                                                                     <img
                                                                         width="300"
                                                                         height="300"
-                                                                        src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
+                                                                        src="{{asset('assets/front-end/images/')}}/products/14.png"
                                                                         class="wp-post-image attachment-300x300 size-300x300 lazy"
                                                                         alt="Chicken Roast"
-                                                                        data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-g1fnddBZ/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2020/12/Chicken-Roast-1.png"
+                                                                        data-src="{{asset('assets/front-end/images/')}}/products/14.png"
                                                                     />
                                                                 </figure>
                                                             </a>
@@ -2527,11 +2525,11 @@
                                                             </div>
 
                                                             <h3 class="product-name product_title">
-                                                                <a href="product/chicken-roast-1-4-pc/index.html">Chicken Roast 1/4 Pc</a>
+                                                                <a href="product/chicken-roast-1-4-pc/index.html">Beef Kalia (1box)</a>
                                                             </h3>
 
                                                             <span class="price">
-                                                                        <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>140</span>
+                                                                        <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>425</span>
                                                                     </span>
                                                             <div class="group-button">
                                                                 <div class="des"></div>
@@ -2571,10 +2569,10 @@
                                                                     <img
                                                                         width="300"
                                                                         height="300"
-                                                                        src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
+                                                                        src="{{asset('assets/front-end/images/')}}/products/14.png"
                                                                         class="wp-post-image attachment-300x300 size-300x300 lazy"
                                                                         alt="Beef Tehari Full"
-                                                                        data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-WEyhl95P/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2020/12/Beef-Tehari-Full.png"
+                                                                        data-src="{{asset('assets/front-end/images/')}}/products/14.png"
                                                                     />
                                                                 </figure>
                                                             </a>
@@ -2595,11 +2593,11 @@
                                                             </div>
 
                                                             <h3 class="product-name product_title">
-                                                                <a href="product/tehari-full/index.html">Tehari (Full)</a>
+                                                                <a href="product/tehari-full/index.html">Shahe Beef Haleem</a>
                                                             </h3>
 
                                                             <span class="price">
-                                                                        <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>280</span>
+                                                                        <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>425</span>
                                                                     </span>
                                                             <div class="group-button">
                                                                 <div class="des"></div>
@@ -2639,10 +2637,10 @@
                                                                     <img
                                                                         width="300"
                                                                         height="300"
-                                                                        src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
+                                                                        src="{{asset('assets/front-end/images/')}}/products/14.png"
                                                                         class="wp-post-image attachment-300x300 size-300x300 lazy"
                                                                         alt="Chicken Biryani Full (2)"
-                                                                        data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-0_tbI3KO/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2020/12/Chicken-Biryani-Full-2.png"
+                                                                        data-src="{{asset('assets/front-end/images/')}}/products/14.png"
                                                                     />
                                                                 </figure>
                                                             </a>
@@ -2663,11 +2661,11 @@
                                                             </div>
 
                                                             <h3 class="product-name product_title">
-                                                                <a href="product/chicken-biryani-full/index.html">Chicken Biryani (Full)</a>
+                                                                <a href="product/chicken-biryani-full/index.html">Beef Kalabhuna Patties</a>
                                                             </h3>
 
                                                             <span class="price">
-                                                                        <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>320</span>
+                                                                        <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span></span>
                                                                     </span>
                                                             <div class="group-button">
                                                                 <div class="des"></div>
@@ -2707,10 +2705,10 @@
                                                                     <img
                                                                         width="300"
                                                                         height="300"
-                                                                        src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
+                                                                        src="{{asset('assets/front-end/images/')}}/products/14.png"
                                                                         class="wp-post-image attachment-300x300 size-300x300 lazy"
                                                                         alt="Mutton Kacchi Full"
-                                                                        data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-pETOazMQ/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2020/12/Mutton-Kacchi-Full.png"
+                                                                        data-src="{{asset('assets/front-end/images/')}}/products/14.png"
                                                                     />
                                                                 </figure>
                                                             </a>
@@ -2731,11 +2729,11 @@
                                                             </div>
 
                                                             <h3 class="product-name product_title">
-                                                                <a href="product/mutton-kacchi-biryani-full/index.html">Mutton Kacchi Biryani (Full)</a>
+                                                                <a href="product/mutton-kacchi-biryani-full/index.html">Firni (100gms)</a>
                                                             </h3>
 
                                                             <span class="price">
-                                                                        <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>350</span>
+                                                                        <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>200</span>
                                                                     </span>
                                                             <div class="group-button">
                                                                 <div class="des"></div>
@@ -3004,10 +3002,10 @@
                                         <img
                                             width="2376"
                                             height="272"
-                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%222376%22%20height%3D%22272%22%20viewBox%3D%220%200%202376%20272%22%3E%3C%2Fsvg%3E"
+                                            src="{{asset('assets/front-end/images/Bannermiddle.jpg')}}"
                                             class="wp-post-image attachment-2376x272 size-2376x272 lazy"
                                             alt="Fakruddin_offer banner-01"
-                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-AYKc9lEz/w_auto/h_auto/q_auto/https_/fakruddin.com/wp-content/uploads/2020/11/Fakruddin_offer-banner-01-1.png"
+                                            data-src="{{asset('assets/front-end/images/Bannermiddle.jpg')}}"
                                         />
                                     </a>
                                 </div>
@@ -3020,256 +3018,529 @@
                             <div class="vc_empty_space ovic_custom_609a81acaf729" style="height: 35px;"><span class="vc_empty_space_inner"></span></div>
                             <div class="ovic-products wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp style-8 ovic-products-default ovic_custom_609a81acaf72a vc_custom_1609052038919 vc_custom_1609052038948">
                                 <h3 class="ovic-title"><span class="text">Hot Products</span></h3>
-                                <div
-                                    class="product-list-owl owl-slick equal-container better-height"
-                                    data-slick='{"arrows":false,"slidesMargin":30,"dots":false,"infinite":false,"speed":300,"slidesToShow":3,"rows":2}'
-                                    data-responsive='[{"breakpoint":1500,"settings":{"slidesToShow":3}},{"breakpoint":1200,"settings":{"slidesToShow":3}},{"breakpoint":992,"settings":{"slidesToShow":2}},{"breakpoint":768,"settings":{"slidesToShow":2}},{"breakpoint":480,"settings":{"slidesToShow":2}}]'
-                                >
+                                {{--                                <div--}}
+                                {{--                                    class="product-list-owl owl-slick equal-container better-height"--}}
+                                {{--                                    data-slick='{"arrows":false,"slidesMargin":30,"dots":false,"infinite":false,"speed":300,"slidesToShow":3,"rows":2}'--}}
+                                {{--                                    data-responsive='[{"breakpoint":1500,"settings":{"slidesToShow":3}},{"breakpoint":1200,"settings":{"slidesToShow":3}},{"breakpoint":992,"settings":{"slidesToShow":2}},{"breakpoint":768,"settings":{"slidesToShow":2}},{"breakpoint":480,"settings":{"slidesToShow":2}}]'--}}
+                                {{--                                >--}}
+                                {{--                                    <div--}}
+                                {{--                                        class="product-item recent-product style-8 rows-space-30 post-19056 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar last instock taxable shipping-taxable purchasable product-type-simple"--}}
+                                {{--                                    >--}}
+                                {{--                                        <div class="product-inner">--}}
+                                {{--                                            <div class="product-thumb">--}}
+                                {{--                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/mutton-chap-mutton-rezala-1-kg/index.html">--}}
+                                {{--                                                    <figure>--}}
+                                {{--                                                        <img--}}
+                                {{--                                                            width="300"--}}
+                                {{--                                                            height="300"--}}
+                                {{--                                                            src="{{asset('assets/front-end/images/')}}/products/5.png"--}}
+                                {{--                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"--}}
+                                {{--                                                            alt="AnyConv.com__b24b5458-048f-4eed-b18e-cd3eb1b12508"--}}
+                                {{--                                                            data-src="{{asset('assets/front-end/images/')}}/products/5.png"--}}
+                                {{--                                                        />--}}
+                                {{--                                                    </figure>--}}
+                                {{--                                                </a>--}}
+                                {{--                                            </div>--}}
+                                {{--                                            <div class="product-info">--}}
+                                {{--                                                <div class="title-category">--}}
+                                {{--                                                    <ul>--}}
+                                {{--                                                        <li>--}}
+                                {{--                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>--}}
+                                {{--                                                        </li>--}}
+                                {{--                                                    </ul>--}}
+                                {{--                                                </div>--}}
+
+                                {{--                                                <h3 class="product-name product_title">--}}
+                                {{--                                                    <a href="product/mutton-chap-mutton-rezala-1-kg/index.html">Mihidana Rabri (100gms)</a>--}}
+                                {{--                                                </h3>--}}
+
+                                {{--                                                <span class="price">--}}
+                                {{--                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>225</span>--}}
+                                {{--                                                        </span>--}}
+                                {{--                                                <div class="rating-wapper">--}}
+                                {{--                                                    <span class="star-rating"><span style="width: 0%;"></span></span><span class="review-count">(0 Review)</span>--}}
+                                {{--                                                </div>--}}
+                                {{--                                            </div>--}}
+                                {{--                                        </div>--}}
+                                {{--                                    </div>--}}
+                                {{--                                    <div--}}
+                                {{--                                        class="product-item recent-product style-8 rows-space-30 post-19054 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar product_cat-sweets first instock taxable shipping-taxable purchasable product-type-simple"--}}
+                                {{--                                    >--}}
+                                {{--                                        <div class="product-inner">--}}
+                                {{--                                            <div class="product-thumb">--}}
+                                {{--                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/jilapi-1-kg/index.html">--}}
+                                {{--                                                    <figure>--}}
+                                {{--                                                        <img--}}
+                                {{--                                                            width="300"--}}
+                                {{--                                                            height="300"--}}
+                                {{--                                                            src=" {{asset('assets/front-end/images/')}}/products/6.png"--}}
+                                {{--                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"--}}
+                                {{--                                                            alt="Reshmi Jelapi"--}}
+                                {{--                                                            data-src="{{asset('assets/front-end/images/')}}/products/6.png"                                                        />--}}
+                                {{--                                                    </figure>--}}
+                                {{--                                                </a>--}}
+                                {{--                                            </div>--}}
+                                {{--                                            <div class="product-info">--}}
+                                {{--                                                <div class="title-category">--}}
+                                {{--                                                    <ul>--}}
+                                {{--                                                        <li>--}}
+                                {{--                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Beef Rezala 1 Box</a>--}}
+                                {{--                                                        </li>--}}
+
+                                {{--                                                        <li>--}}
+                                {{--                                                            <a class="product-cat" title="Sweets" href="product-category/sweets/index.html">Sweets</a>--}}
+                                {{--                                                        </li>--}}
+                                {{--                                                    </ul>--}}
+                                {{--                                                </div>--}}
+
+                                {{--                                                <h3 class="product-name product_title">--}}
+                                {{--                                                    <a href="product/jilapi-1-kg/index.html">Beef Rezala (1 BOX)</a>--}}
+                                {{--                                                </h3>--}}
+
+                                {{--                                                <span class="price">--}}
+                                {{--                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>425</span>--}}
+                                {{--                                                        </span>--}}
+                                {{--                                                <div class="rating-wapper">--}}
+                                {{--                                                    <span class="star-rating"><span style="width: 0%;"></span></span><span class="review-count">(0 Review)</span>--}}
+                                {{--                                                </div>--}}
+                                {{--                                            </div>--}}
+                                {{--                                        </div>--}}
+                                {{--                                    </div>--}}
+                                {{--                                    <div--}}
+                                {{--                                        class="product-item recent-product style-8 rows-space-30 post-19052 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar instock taxable shipping-taxable purchasable product-type-simple"--}}
+                                {{--                                    >--}}
+                                {{--                                        <div class="product-inner">--}}
+                                {{--                                            <div class="product-thumb">--}}
+                                {{--                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/shahi-firni-big-khora/index.html">--}}
+                                {{--                                                    <figure>--}}
+                                {{--                                                        <img--}}
+                                {{--                                                            width="300"--}}
+                                {{--                                                            height="300"--}}
+                                {{--                                                            src=" {{asset('assets/front-end/images/')}}/products/8.png"--}}
+                                {{--                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"--}}
+                                {{--                                                            alt="das"--}}
+                                {{--                                                            data-src="{{asset('assets/front-end/images/')}}/products/8.png"                                                        />--}}
+                                {{--                                                    </figure>--}}
+                                {{--                                                </a>--}}
+                                {{--                                            </div>--}}
+                                {{--                                            <div class="product-info">--}}
+                                {{--                                                <div class="title-category">--}}
+                                {{--                                                    <ul>--}}
+                                {{--                                                        <li>--}}
+                                {{--                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>--}}
+                                {{--                                                        </li>--}}
+                                {{--                                                    </ul>--}}
+                                {{--                                                </div>--}}
+
+                                {{--                                                <h3 class="product-name product_title">--}}
+                                {{--                                                    <a href="product/shahi-firni-big-khora/index.html">Arabic Mandi</a>--}}
+                                {{--                                                </h3>--}}
+
+                                {{--                                                <span class="price">--}}
+                                {{--                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span></span>--}}
+                                {{--                                                        </span>--}}
+                                {{--                                                <div class="rating-wapper">--}}
+                                {{--                                                    <span class="star-rating"><span style="width: 0%;"></span></span><span class="review-count">(0 Review)</span>--}}
+                                {{--                                                </div>--}}
+                                {{--                                            </div>--}}
+                                {{--                                        </div>--}}
+                                {{--                                    </div>--}}
+                                {{--                                    <div--}}
+                                {{--                                        class="product-item recent-product style-8 rows-space-30 post-19051 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar instock taxable shipping-taxable purchasable product-type-simple"--}}
+                                {{--                                    >--}}
+                                {{--                                        <div class="product-inner">--}}
+                                {{--                                            <div class="product-thumb">--}}
+                                {{--                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/chicken-haleem-small/index.html">--}}
+                                {{--                                                    <figure>--}}
+                                {{--                                                        <img--}}
+                                {{--                                                            width="300"--}}
+                                {{--                                                            height="300"--}}
+                                {{--                                                            src="{{asset('assets/front-end/images/')}}/products/7.png"                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"--}}
+                                {{--                                                            alt="4"--}}
+                                {{--                                                            data-src="{{asset('assets/front-end/images/')}}/products/7.png"                                                        />--}}
+                                {{--                                                    </figure>--}}
+                                {{--                                                </a>--}}
+                                {{--                                            </div>--}}
+                                {{--                                            <div class="product-info">--}}
+                                {{--                                                <div class="title-category">--}}
+                                {{--                                                    <ul>--}}
+                                {{--                                                        <li>--}}
+                                {{--                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>--}}
+                                {{--                                                        </li>--}}
+                                {{--                                                    </ul>--}}
+                                {{--                                                </div>--}}
+
+                                {{--                                                <h3 class="product-name product_title">--}}
+                                {{--                                                    <a href="product/chicken-haleem-small/index.html">Shahe Beef Haleem</a>--}}
+                                {{--                                                </h3>--}}
+
+                                {{--                                                <span class="price">--}}
+                                {{--                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>400</span>--}}
+                                {{--                                                        </span>--}}
+                                {{--                                                <div class="rating-wapper">--}}
+                                {{--                                                    <span class="star-rating"><span style="width: 0%;"></span></span><span class="review-count">(0 Review)</span>--}}
+                                {{--                                                </div>--}}
+                                {{--                                            </div>--}}
+                                {{--                                        </div>--}}
+                                {{--                                    </div>--}}
+                                {{--                                    <div--}}
+                                {{--                                        class="product-item recent-product style-8 rows-space-30 post-19049 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar last instock taxable shipping-taxable purchasable product-type-simple"--}}
+                                {{--                                    >--}}
+                                {{--                                        <div class="product-inner">--}}
+                                {{--                                            <div class="product-thumb">--}}
+                                {{--                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/chicken-haleem-medium/index.html">--}}
+                                {{--                                                    <figure>--}}
+                                {{--                                                        <img--}}
+                                {{--                                                            width="300"--}}
+                                {{--                                                            height="300"--}}
+                                {{--                                                            src="{{asset('assets/front-end/images/')}}/products/14.png"                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"--}}
+                                {{--                                                            alt="4"--}}
+                                {{--                                                            data-src="{{asset('assets/front-end/images/')}}/products/14.png"                                                        />--}}
+                                {{--                                                    </figure>--}}
+                                {{--                                                </a>--}}
+                                {{--                                            </div>--}}
+                                {{--                                            <div class="product-info">--}}
+                                {{--                                                <div class="title-category">--}}
+                                {{--                                                    <ul>--}}
+                                {{--                                                        <li>--}}
+                                {{--                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>--}}
+                                {{--                                                        </li>--}}
+                                {{--                                                    </ul>--}}
+                                {{--                                                </div>--}}
+
+                                {{--                                                <h3 class="product-name product_title">--}}
+                                {{--                                                    <a href="product/chicken-haleem-medium/index.html">Shahe Beef Haleem</a>--}}
+                                {{--                                                </h3>--}}
+
+                                {{--                                                <span class="price">--}}
+                                {{--                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>450</span>--}}
+                                {{--                                                        </span>--}}
+                                {{--                                                <div class="rating-wapper">--}}
+                                {{--                                                    <span class="star-rating"><span style="width: 0%;"></span></span><span class="review-count">(0 Review)</span>--}}
+                                {{--                                                </div>--}}
+                                {{--                                            </div>--}}
+                                {{--                                        </div>--}}
+                                {{--                                    </div>--}}
+                                {{--                                    <div--}}
+                                {{--                                        class="product-item recent-product style-8 rows-space-30 post-19047 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar first instock taxable shipping-taxable purchasable product-type-simple"--}}
+                                {{--                                    >--}}
+                                {{--                                        <div class="product-inner">--}}
+                                {{--                                            <div class="product-thumb">--}}
+                                {{--                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/beef-haleem-medium/index.html">--}}
+                                {{--                                                    <figure>--}}
+                                {{--                                                        <img--}}
+                                {{--                                                            width="300"--}}
+                                {{--                                                            height="300"--}}
+                                {{--                                                            src="{{asset('assets/front-end/images/')}}/products/14.png"                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"--}}
+                                {{--                                                            alt="6"--}}
+                                {{--                                                            data-src="{{asset('assets/front-end/images/')}}/products/14.png"                                                        />--}}
+                                {{--                                                    </figure>--}}
+                                {{--                                                </a>--}}
+                                {{--                                            </div>--}}
+                                {{--                                            <div class="product-info">--}}
+                                {{--                                                <div class="title-category">--}}
+                                {{--                                                    <ul>--}}
+                                {{--                                                        <li>--}}
+                                {{--                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>--}}
+                                {{--                                                        </li>--}}
+                                {{--                                                    </ul>--}}
+                                {{--                                                </div>--}}
+
+                                {{--                                                <h3 class="product-name product_title">--}}
+                                {{--                                                    <a href="product/beef-haleem-medium/index.html">Shahee Beef Haleem </a>--}}
+                                {{--                                                </h3>--}}
+
+                                {{--                                                <span class="price">--}}
+                                {{--                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>425</span>--}}
+                                {{--                                                        </span>--}}
+                                {{--                                                <div class="rating-wapper">--}}
+                                {{--                                                    <span class="star-rating"><span style="width: 0%;"></span></span><span class="review-count">(0 Review)</span>--}}
+                                {{--                                                </div>--}}
+                                {{--                                            </div>--}}
+                                {{--                                        </div>--}}
+                                {{--                                    </div>--}}
+                                {{--                                </div>--}}
+                                <div class="ovic-products style-6 ovic-products-default ovic_custom_609a81acaf723">
                                     <div
-                                        class="product-item recent-product style-8 rows-space-30 post-19056 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar last instock taxable shipping-taxable purchasable product-type-simple"
+                                        class="product-list-owl owl-slick equal-container better-height"
+                                        data-slick='{"arrows":false,"slidesMargin":30,"dots":false,"infinite":false,"speed":300,"slidesToShow":4,"rows":1}'
+                                        data-responsive='[{"breakpoint":1500,"settings":{"slidesToShow":4}},{"breakpoint":1200,"settings":{"slidesToShow":4}},{"breakpoint":992,"settings":{"slidesToShow":3}},{"breakpoint":768,"settings":{"slidesToShow":2}},{"breakpoint":480,"settings":{"slidesToShow":2}}]'
                                     >
-                                        <div class="product-inner">
-                                            <div class="product-thumb">
-                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/mutton-chap-mutton-rezala-1-kg/index.html">
-                                                    <figure>
-                                                        <img
-                                                            width="300"
-                                                            height="300"
-                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
-                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"
-                                                            alt="AnyConv.com__b24b5458-048f-4eed-b18e-cd3eb1b12508"
-                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-uEkLt1Ok/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2021/04/AnyConv.com__b24b5458-048f-4eed-b18e-cd3eb1b12508.jpg"
-                                                        />
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <div class="product-info">
-                                                <div class="title-category">
-                                                    <ul>
-                                                        <li>
-                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>
-                                                        </li>
-                                                    </ul>
+                                        <div
+                                            class="product-item featured_products style-6 style-1 rows-space-0 post-15410 product type-product status-publish has-post-thumbnail product_cat-roast product_cat-restaurant-menu first instock featured taxable shipping-taxable purchasable product-type-simple"
+                                        >
+                                            <div class="product-inner">
+                                                <div class="product-thumb">
+                                                    <a class="thumb-link woocommerce-product-gallery__image" href="product/chicken-roast-1-4-pc/index.html">
+                                                        <figure>
+                                                            <img
+                                                                width="300"
+                                                                height="300"
+                                                                src="{{asset('assets/front-end/images/')}}/products/14.png"
+                                                                class="wp-post-image attachment-300x300 size-300x300 lazy"
+                                                                alt="Chicken Roast"
+                                                                data-src="{{asset('assets/front-end/images/')}}/products/14.png"
+                                                            />
+                                                        </figure>
+                                                    </a>
+                                                    <div class="flash"></div>
+                                                    <a href="#" class="button yith-wcqv-button" data-product_id="15410">Quick View</a>
                                                 </div>
+                                                <div class="product-info">
+                                                    <div class="title-category">
+                                                        <ul>
+                                                            <li>
+                                                                <a class="product-cat" title="Chicken" href="product-category/restaurant-menu/roast/index.html">Chicken</a>
+                                                            </li>
 
-                                                <h3 class="product-name product_title">
-                                                    <a href="product/mutton-chap-mutton-rezala-1-kg/index.html">Mutton Chap &#8211; 1 KG</a>
-                                                </h3>
+                                                            <li>
+                                                                <a class="product-cat" title="Restaurant Menu" href="product-category/restaurant-menu/index.html">Restaurant Menu</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
 
-                                                <span class="price">
-                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>1,200</span>
-                                                        </span>
-                                                <div class="rating-wapper">
-                                                    <span class="star-rating"><span style="width: 0%;"></span></span><span class="review-count">(0 Review)</span>
+                                                    <h3 class="product-name product_title">
+                                                        <a href="product/chicken-roast-1-4-pc/index.html">Beef Kalia (1box)</a>
+                                                    </h3>
+
+                                                    <span class="price">
+                                                                        <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>425</span>
+                                                                    </span>
+                                                    <div class="group-button">
+                                                        <div class="des"></div>
+                                                        <div class="inner">
+                                                            <div class="ovic-wishlist">
+                                                                <a href="indexb09e.html?add_to_wishlist=15410" data-product-id="15410" data-product-type="simple" class="add_to_wishlist"></a>
+                                                                <a href="wishlist/index.html" class="wishlist-url"></a><i class="ajax-loading fa fa-spinner fa-spin"></i>
+                                                            </div>
+                                                            <div class="add-to-cart">
+                                                                <a
+                                                                    href="index1c81.html?add-to-cart=15410"
+                                                                    data-quantity="1"
+                                                                    class="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                    data-product_id="15410"
+                                                                    data-product_sku=""
+                                                                    aria-label="Add &ldquo;Chicken Roast 1/4 Pc&rdquo; to your cart"
+                                                                    rel="nofollow"
+                                                                >
+                                                                    Add to cart
+                                                                </a>
+                                                            </div>
+                                                            <div class="woocommerce product compare-button">
+                                                                <a href="index0fd2.html?action=yith-woocompare-add-product&amp;id=15410" class="compare" data-product_id="15410" rel="nofollow">Compare</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div
-                                        class="product-item recent-product style-8 rows-space-30 post-19054 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar product_cat-sweets first instock taxable shipping-taxable purchasable product-type-simple"
-                                    >
-                                        <div class="product-inner">
-                                            <div class="product-thumb">
-                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/jilapi-1-kg/index.html">
-                                                    <figure>
-                                                        <img
-                                                            width="300"
-                                                            height="300"
-                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
-                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"
-                                                            alt="Reshmi Jelapi"
-                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-pSUcJpI5/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2019/07/Reshmi-Jelapi.png"
-                                                        />
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <div class="product-info">
-                                                <div class="title-category">
-                                                    <ul>
-                                                        <li>
-                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a class="product-cat" title="Sweets" href="product-category/sweets/index.html">Sweets</a>
-                                                        </li>
-                                                    </ul>
+                                        <div
+                                            class="product-item featured_products style-6 style-1 rows-space-0 post-15412 product type-product status-publish has-post-thumbnail product_cat-biriyani product_cat-restaurant-menu instock featured taxable shipping-taxable purchasable product-type-simple"
+                                        >
+                                            <div class="product-inner">
+                                                <div class="product-thumb">
+                                                    <a class="thumb-link woocommerce-product-gallery__image" href="product/tehari-full/index.html">
+                                                        <figure>
+                                                            <img
+                                                                width="300"
+                                                                height="300"
+                                                                src="{{asset('assets/front-end/images/')}}/products/14.png"
+                                                                class="wp-post-image attachment-300x300 size-300x300 lazy"
+                                                                alt="Beef Tehari Full"
+                                                                data-src="{{asset('assets/front-end/images/')}}/products/14.png"
+                                                            />
+                                                        </figure>
+                                                    </a>
+                                                    <div class="flash"></div>
+                                                    <a href="#" class="button yith-wcqv-button" data-product_id="15412">Quick View</a>
                                                 </div>
+                                                <div class="product-info">
+                                                    <div class="title-category">
+                                                        <ul>
+                                                            <li>
+                                                                <a class="product-cat" title="Biryani" href="product-category/restaurant-menu/biriyani/index.html">Biryani</a>
+                                                            </li>
 
-                                                <h3 class="product-name product_title">
-                                                    <a href="product/jilapi-1-kg/index.html">Jilapi (1 KG)</a>
-                                                </h3>
+                                                            <li>
+                                                                <a class="product-cat" title="Restaurant Menu" href="product-category/restaurant-menu/index.html">Restaurant Menu</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
 
-                                                <span class="price">
-                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>400</span>
-                                                        </span>
-                                                <div class="rating-wapper">
-                                                    <span class="star-rating"><span style="width: 0%;"></span></span><span class="review-count">(0 Review)</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item recent-product style-8 rows-space-30 post-19052 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar instock taxable shipping-taxable purchasable product-type-simple"
-                                    >
-                                        <div class="product-inner">
-                                            <div class="product-thumb">
-                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/shahi-firni-big-khora/index.html">
-                                                    <figure>
-                                                        <img
-                                                            width="300"
-                                                            height="300"
-                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
-                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"
-                                                            alt="das"
-                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-CXArmP3n/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2021/04/das.jpg"
-                                                        />
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <div class="product-info">
-                                                <div class="title-category">
-                                                    <ul>
-                                                        <li>
-                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
+                                                    <h3 class="product-name product_title">
+                                                        <a href="product/tehari-full/index.html">Shahe Beef Haleem</a>
+                                                    </h3>
 
-                                                <h3 class="product-name product_title">
-                                                    <a href="product/shahi-firni-big-khora/index.html">Shahi Firni (Big Khora)</a>
-                                                </h3>
-
-                                                <span class="price">
-                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>200</span>
-                                                        </span>
-                                                <div class="rating-wapper">
-                                                    <span class="star-rating"><span style="width: 0%;"></span></span><span class="review-count">(0 Review)</span>
+                                                    <span class="price">
+                                                                        <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>425</span>
+                                                                    </span>
+                                                    <div class="group-button">
+                                                        <div class="des"></div>
+                                                        <div class="inner">
+                                                            <div class="ovic-wishlist">
+                                                                <a href="index4c08.html?add_to_wishlist=15412" data-product-id="15412" data-product-type="simple" class="add_to_wishlist"></a>
+                                                                <a href="wishlist/index.html" class="wishlist-url"></a><i class="ajax-loading fa fa-spinner fa-spin"></i>
+                                                            </div>
+                                                            <div class="add-to-cart">
+                                                                <a
+                                                                    href="index8fdd.html?add-to-cart=15412"
+                                                                    data-quantity="1"
+                                                                    class="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                    data-product_id="15412"
+                                                                    data-product_sku=""
+                                                                    aria-label="Add &ldquo;Tehari (Full)&rdquo; to your cart"
+                                                                    rel="nofollow"
+                                                                >
+                                                                    Add to cart
+                                                                </a>
+                                                            </div>
+                                                            <div class="woocommerce product compare-button">
+                                                                <a href="indexc9d1.html?action=yith-woocompare-add-product&amp;id=15412" class="compare" data-product_id="15412" rel="nofollow">Compare</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div
-                                        class="product-item recent-product style-8 rows-space-30 post-19051 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar instock taxable shipping-taxable purchasable product-type-simple"
-                                    >
-                                        <div class="product-inner">
-                                            <div class="product-thumb">
-                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/chicken-haleem-small/index.html">
-                                                    <figure>
-                                                        <img
-                                                            width="300"
-                                                            height="300"
-                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
-                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"
-                                                            alt="4"
-                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-TZKkSz4h/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2021/04/4.png"
-                                                        />
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <div class="product-info">
-                                                <div class="title-category">
-                                                    <ul>
-                                                        <li>
-                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>
-                                                        </li>
-                                                    </ul>
+                                        <div
+                                            class="product-item featured_products style-6 style-1 rows-space-0 post-15406 product type-product status-publish has-post-thumbnail product_cat-biriyani product_cat-restaurant-menu instock featured taxable shipping-taxable purchasable product-type-simple"
+                                        >
+                                            <div class="product-inner">
+                                                <div class="product-thumb">
+                                                    <a class="thumb-link woocommerce-product-gallery__image" href="product/chicken-biryani-full/index.html">
+                                                        <figure>
+                                                            <img
+                                                                width="300"
+                                                                height="300"
+                                                                src="{{asset('assets/front-end/images/')}}/products/14.png"
+                                                                class="wp-post-image attachment-300x300 size-300x300 lazy"
+                                                                alt="Chicken Biryani Full (2)"
+                                                                data-src="{{asset('assets/front-end/images/')}}/products/14.png"
+                                                            />
+                                                        </figure>
+                                                    </a>
+                                                    <div class="flash"></div>
+                                                    <a href="#" class="button yith-wcqv-button" data-product_id="15406">Quick View</a>
                                                 </div>
+                                                <div class="product-info">
+                                                    <div class="title-category">
+                                                        <ul>
+                                                            <li>
+                                                                <a class="product-cat" title="Biryani" href="product-category/restaurant-menu/biriyani/index.html">Biryani</a>
+                                                            </li>
 
-                                                <h3 class="product-name product_title">
-                                                    <a href="product/chicken-haleem-small/index.html">Chicken Haleem (Small)</a>
-                                                </h3>
+                                                            <li>
+                                                                <a class="product-cat" title="Restaurant Menu" href="product-category/restaurant-menu/index.html">Restaurant Menu</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
 
-                                                <span class="price">
-                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>200</span>
-                                                        </span>
-                                                <div class="rating-wapper">
-                                                    <span class="star-rating"><span style="width: 0%;"></span></span><span class="review-count">(0 Review)</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item recent-product style-8 rows-space-30 post-19049 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar last instock taxable shipping-taxable purchasable product-type-simple"
-                                    >
-                                        <div class="product-inner">
-                                            <div class="product-thumb">
-                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/chicken-haleem-medium/index.html">
-                                                    <figure>
-                                                        <img
-                                                            width="300"
-                                                            height="300"
-                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
-                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"
-                                                            alt="4"
-                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-TZKkSz4h/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2021/04/4.png"
-                                                        />
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <div class="product-info">
-                                                <div class="title-category">
-                                                    <ul>
-                                                        <li>
-                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
+                                                    <h3 class="product-name product_title">
+                                                        <a href="product/chicken-biryani-full/index.html">Beef Kalabhuna Patties</a>
+                                                    </h3>
 
-                                                <h3 class="product-name product_title">
-                                                    <a href="product/chicken-haleem-medium/index.html">Chicken Haleem (Medium)</a>
-                                                </h3>
-
-                                                <span class="price">
-                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>450</span>
-                                                        </span>
-                                                <div class="rating-wapper">
-                                                    <span class="star-rating"><span style="width: 0%;"></span></span><span class="review-count">(0 Review)</span>
+                                                    <span class="price">
+                                                                        <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span></span>
+                                                                    </span>
+                                                    <div class="group-button">
+                                                        <div class="des"></div>
+                                                        <div class="inner">
+                                                            <div class="ovic-wishlist">
+                                                                <a href="index3bdb.html?add_to_wishlist=15406" data-product-id="15406" data-product-type="simple" class="add_to_wishlist"></a>
+                                                                <a href="wishlist/index.html" class="wishlist-url"></a><i class="ajax-loading fa fa-spinner fa-spin"></i>
+                                                            </div>
+                                                            <div class="add-to-cart">
+                                                                <a
+                                                                    href="indexff2f.html?add-to-cart=15406"
+                                                                    data-quantity="1"
+                                                                    class="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                    data-product_id="15406"
+                                                                    data-product_sku=""
+                                                                    aria-label="Add &ldquo;Chicken Biryani (Full)&rdquo; to your cart"
+                                                                    rel="nofollow"
+                                                                >
+                                                                    Add to cart
+                                                                </a>
+                                                            </div>
+                                                            <div class="woocommerce product compare-button">
+                                                                <a href="indexa65a.html?action=yith-woocompare-add-product&amp;id=15406" class="compare" data-product_id="15406" rel="nofollow">Compare</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div
-                                        class="product-item recent-product style-8 rows-space-30 post-19047 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar first instock taxable shipping-taxable purchasable product-type-simple"
-                                    >
-                                        <div class="product-inner">
-                                            <div class="product-thumb">
-                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/beef-haleem-medium/index.html">
-                                                    <figure>
-                                                        <img
-                                                            width="300"
-                                                            height="300"
-                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
-                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"
-                                                            alt="6"
-                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-hCjskD4n/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2021/04/6.png"
-                                                        />
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <div class="product-info">
-                                                <div class="title-category">
-                                                    <ul>
-                                                        <li>
-                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>
-                                                        </li>
-                                                    </ul>
+                                        <div
+                                            class="product-item featured_products style-6 style-1 rows-space-0 post-15402 product type-product status-publish has-post-thumbnail product_cat-biriyani product_cat-restaurant-menu last instock featured taxable shipping-taxable purchasable product-type-simple"
+                                        >
+                                            <div class="product-inner">
+                                                <div class="product-thumb">
+                                                    <a class="thumb-link woocommerce-product-gallery__image" href="product/mutton-kacchi-biryani-full/index.html">
+                                                        <figure>
+                                                            <img
+                                                                width="300"
+                                                                height="300"
+                                                                src="{{asset('assets/front-end/images/')}}/products/14.png"
+                                                                class="wp-post-image attachment-300x300 size-300x300 lazy"
+                                                                alt="Mutton Kacchi Full"
+                                                                data-src="{{asset('assets/front-end/images/')}}/products/14.png"
+                                                            />
+                                                        </figure>
+                                                    </a>
+                                                    <div class="flash"></div>
+                                                    <a href="#" class="button yith-wcqv-button" data-product_id="15402">Quick View</a>
                                                 </div>
+                                                <div class="product-info">
+                                                    <div class="title-category">
+                                                        <ul>
+                                                            <li>
+                                                                <a class="product-cat" title="Biryani" href="product-category/restaurant-menu/biriyani/index.html">Biryani</a>
+                                                            </li>
 
-                                                <h3 class="product-name product_title">
-                                                    <a href="product/beef-haleem-medium/index.html">Mutton Haleem (Medium)</a>
-                                                </h3>
+                                                            <li>
+                                                                <a class="product-cat" title="Restaurant Menu" href="product-category/restaurant-menu/index.html">Restaurant Menu</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
 
-                                                <span class="price">
-                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>450</span>
-                                                        </span>
-                                                <div class="rating-wapper">
-                                                    <span class="star-rating"><span style="width: 0%;"></span></span><span class="review-count">(0 Review)</span>
+                                                    <h3 class="product-name product_title">
+                                                        <a href="product/mutton-kacchi-biryani-full/index.html">Firni (100gms)</a>
+                                                    </h3>
+
+                                                    <span class="price">
+                                                                        <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>200</span>
+                                                                    </span>
+                                                    <div class="group-button">
+                                                        <div class="des"></div>
+                                                        <div class="inner">
+                                                            <div class="ovic-wishlist">
+                                                                <a href="indexac5c.html?add_to_wishlist=15402" data-product-id="15402" data-product-type="simple" class="add_to_wishlist"></a>
+                                                                <a href="wishlist/index.html" class="wishlist-url"></a><i class="ajax-loading fa fa-spinner fa-spin"></i>
+                                                            </div>
+                                                            <div class="add-to-cart">
+                                                                <a
+                                                                    href="indexd696.html?add-to-cart=15402"
+                                                                    data-quantity="1"
+                                                                    class="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                                                    data-product_id="15402"
+                                                                    data-product_sku=""
+                                                                    aria-label="Add &ldquo;Mutton Kacchi Biryani (Full)&rdquo; to your cart"
+                                                                    rel="nofollow"
+                                                                >
+                                                                    Add to cart
+                                                                </a>
+                                                            </div>
+                                                            <div class="woocommerce product compare-button">
+                                                                <a href="index3a73.html?action=yith-woocompare-add-product&amp;id=15402" class="compare" data-product_id="15402" rel="nofollow">Compare</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
 
                             <div class="vc_empty_space ovic_custom_609a81acaf72b" style="height: 10px;"><span class="vc_empty_space_inner"></span></div>
@@ -3295,10 +3566,10 @@
                                                         <img
                                                             width="300"
                                                             height="300"
-                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
+                                                            src="{{asset('assets/front-end/images/')}}/products/14.png"
                                                             class="wp-post-image attachment-300x300 size-300x300 lazy"
                                                             alt="Jali Kabab"
-                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-PsVPYJ8w/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2019/09/Jali-Kabab-1.png"
+                                                            data-src="{{asset('assets/front-end/images/')}}/products/14.png"
                                                         />
                                                     </figure>
                                                 </a>
@@ -3343,10 +3614,10 @@
                                                         <img
                                                             width="300"
                                                             height="300"
-                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
+                                                            src="{{asset('assets/front-end/images/')}}/products/14.png"
                                                             class="wp-post-image attachment-300x300 size-300x300 lazy"
-                                                            alt="02. Mixed Salad"
-                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-BEBPFf0H/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2019/09/02.-Mixed-Salad.png"
+                                                            alt="Jali Kabab"
+                                                            data-src="{{asset('assets/front-end/images/')}}/products/14.png"
                                                         />
                                                     </figure>
                                                 </a>
@@ -3391,10 +3662,10 @@
                                                         <img
                                                             width="300"
                                                             height="300"
-                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
+                                                            src="{{asset('assets/front-end/images/')}}/products/14.png"
                                                             class="wp-post-image attachment-300x300 size-300x300 lazy"
-                                                            alt="SET 10"
-                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-fqSqVUSt/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2019/09/SET-10-2.png"
+                                                            alt="Jali Kabab"
+                                                            data-src="{{asset('assets/front-end/images/')}}/products/14.png"
                                                         />
                                                     </figure>
                                                 </a>
@@ -3435,16 +3706,18 @@
                                         <div class="product-inner">
                                             <div class="product-thumb">
                                                 <a class="thumb-link woocommerce-product-gallery__image" href="product/wedding-set-menu-09/index.html">
+
                                                     <figure>
                                                         <img
                                                             width="300"
                                                             height="300"
-                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
+                                                            src="{{asset('assets/front-end/images/')}}/products/14.png"
                                                             class="wp-post-image attachment-300x300 size-300x300 lazy"
-                                                            alt="SET 09"
-                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-vrDkc-SE/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2019/09/SET-09-3.png"
+                                                            alt="Jali Kabab"
+                                                            data-src="{{asset('assets/front-end/images/')}}/products/14.png"
                                                         />
                                                     </figure>
+
                                                 </a>
                                             </div>
                                             <div class="product-info">
@@ -3487,10 +3760,10 @@
                                                         <img
                                                             width="300"
                                                             height="300"
-                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
+                                                            src="{{asset('assets/front-end/images/')}}/products/14.png"
                                                             class="wp-post-image attachment-300x300 size-300x300 lazy"
-                                                            alt="SET 08"
-                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-wcz2ujJk/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2019/07/SET-08-1.png"
+                                                            alt="Jali Kabab"
+                                                            data-src="{{asset('assets/front-end/images/')}}/products/14.png"
                                                         />
                                                     </figure>
                                                 </a>
@@ -3535,10 +3808,10 @@
                                                         <img
                                                             width="300"
                                                             height="300"
-                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
+                                                            src="{{asset('assets/front-end/images/')}}/products/14.png"
                                                             class="wp-post-image attachment-300x300 size-300x300 lazy"
-                                                            alt="Wedding SET 01"
-                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-yAmIZfit/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2019/07/Wedding-SET-01.png"
+                                                            alt="Jali Kabab"
+                                                            data-src="{{asset('assets/front-end/images/')}}/products/14.png"
                                                         />
                                                     </figure>
                                                 </a>
@@ -3579,524 +3852,524 @@
                     </div>
                 </div>
             </div>
-            <div class="vc_row wpb_row vc_row-fluid ovic_custom_609a81acaf730">
-                <div class="wpb_column vc_column_container vc_col-sm-12">
-                    <div class="vc_column-inner">
-                        <div class="wpb_wrapper">
-                            <h3
-                                style="font-size: 30px; color: #222222; line-height: 30px; text-align: left;"
-                                class="vc_custom_heading font-weight-bold font-weight-bold ovic_custom_609a81acaf732 vc_custom_1535423509108 vc_custom_1535423509135"
-                            >
-                                Most Viewed Products
-                            </h3>
-                            <div class="ovic-products wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp style-3 ovic-products-default ovic_custom_609a81acaf733">
-                                <div
-                                    class="product-list-owl owl-slick equal-container better-height"
-                                    data-slick='{"arrows":false,"slidesMargin":20,"dots":false,"infinite":false,"speed":300,"slidesToShow":5,"rows":1}'
-                                    data-responsive='[{"breakpoint":1500,"settings":{"slidesToShow":5}},{"breakpoint":1200,"settings":{"slidesToShow":3}},{"breakpoint":992,"settings":{"slidesToShow":3}},{"breakpoint":768,"settings":{"slidesToShow":2}},{"breakpoint":480,"settings":{"slidesToShow":2}}]'
-                                >
-                                    <div
-                                        class="product-item recent-product style-3 rows-space-0 post-19056 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar last instock taxable shipping-taxable purchasable product-type-simple"
-                                    >
-                                        <div class="product-inner">
-                                            <div class="product-thumb">
-                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/mutton-chap-mutton-rezala-1-kg/index.html">
-                                                    <figure>
-                                                        <img
-                                                            width="300"
-                                                            height="300"
-                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
-                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"
-                                                            alt="AnyConv.com__b24b5458-048f-4eed-b18e-cd3eb1b12508"
-                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-uEkLt1Ok/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2021/04/AnyConv.com__b24b5458-048f-4eed-b18e-cd3eb1b12508.jpg"
-                                                        />
-                                                    </figure>
-                                                </a>
-                                                <div class="flash"></div>
+            {{--            <div class="vc_row wpb_row vc_row-fluid ovic_custom_609a81acaf730">--}}
+            {{--                <div class="wpb_column vc_column_container vc_col-sm-12">--}}
+            {{--                    <div class="vc_column-inner">--}}
+            {{--                        <div class="wpb_wrapper">--}}
+            {{--                            <h3--}}
+            {{--                                style="font-size: 30px; color: #222222; line-height: 30px; text-align: left;"--}}
+            {{--                                class="vc_custom_heading font-weight-bold font-weight-bold ovic_custom_609a81acaf732 vc_custom_1535423509108 vc_custom_1535423509135"--}}
+            {{--                            >--}}
+            {{--                                Most Viewed Products--}}
+            {{--                            </h3>--}}
+            {{--                            <div class="ovic-products wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp style-3 ovic-products-default ovic_custom_609a81acaf733">--}}
+            {{--                                <div--}}
+            {{--                                    class="product-list-owl owl-slick equal-container better-height"--}}
+            {{--                                    data-slick='{"arrows":false,"slidesMargin":20,"dots":false,"infinite":false,"speed":300,"slidesToShow":5,"rows":1}'--}}
+            {{--                                    data-responsive='[{"breakpoint":1500,"settings":{"slidesToShow":5}},{"breakpoint":1200,"settings":{"slidesToShow":3}},{"breakpoint":992,"settings":{"slidesToShow":3}},{"breakpoint":768,"settings":{"slidesToShow":2}},{"breakpoint":480,"settings":{"slidesToShow":2}}]'--}}
+            {{--                                >--}}
+            {{--                                    <div--}}
+            {{--                                        class="product-item recent-product style-3 rows-space-0 post-19056 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar last instock taxable shipping-taxable purchasable product-type-simple"--}}
+            {{--                                    >--}}
+            {{--                                        <div class="product-inner">--}}
+            {{--                                            <div class="product-thumb">--}}
+            {{--                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/mutton-chap-mutton-rezala-1-kg/index.html">--}}
+            {{--                                                    <figure>--}}
+            {{--                                                        <img--}}
+            {{--                                                            width="300"--}}
+            {{--                                                            height="300"--}}
+            {{--                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"--}}
+            {{--                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"--}}
+            {{--                                                            alt="AnyConv.com__b24b5458-048f-4eed-b18e-cd3eb1b12508"--}}
+            {{--                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-uEkLt1Ok/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2021/04/AnyConv.com__b24b5458-048f-4eed-b18e-cd3eb1b12508.jpg"--}}
+            {{--                                                        />--}}
+            {{--                                                    </figure>--}}
+            {{--                                                </a>--}}
+            {{--                                                <div class="flash"></div>--}}
 
-                                                <div
-                                                    class="yith-wcwl-add-to-wishlist add-to-wishlist-19056 wishlist-fragment on-first-load"
-                                                    data-fragment-ref="19056"
-                                                    data-fragment-options='{"base_url":"","in_default_wishlist":false,"is_single":false,"show_exists":false,"product_id":19056,"parent_product_id":19056,"product_type":"simple","show_view":false,"browse_wishlist_text":"Browse Wishlist","already_in_wishslist_text":"The product is already in the wishlist!","product_added_text":"Product added!","heading_icon":"","available_multi_wishlist":false,"disable_wishlist":false,"show_count":false,"ajax_loading":false,"loop_position":false,"item":"add_to_wishlist"}'
-                                                >
-                                                    <!-- ADD TO WISHLIST -->
+            {{--                                                <div--}}
+            {{--                                                    class="yith-wcwl-add-to-wishlist add-to-wishlist-19056 wishlist-fragment on-first-load"--}}
+            {{--                                                    data-fragment-ref="19056"--}}
+            {{--                                                    data-fragment-options='{"base_url":"","in_default_wishlist":false,"is_single":false,"show_exists":false,"product_id":19056,"parent_product_id":19056,"product_type":"simple","show_view":false,"browse_wishlist_text":"Browse Wishlist","already_in_wishslist_text":"The product is already in the wishlist!","product_added_text":"Product added!","heading_icon":"","available_multi_wishlist":false,"disable_wishlist":false,"show_count":false,"ajax_loading":false,"loop_position":false,"item":"add_to_wishlist"}'--}}
+            {{--                                                >--}}
+            {{--                                                    <!-- ADD TO WISHLIST -->--}}
 
-                                                    <div class="yith-wcwl-add-button">
-                                                        <a
-                                                            href="indexa479.html?add_to_wishlist=19056"
-                                                            rel="nofollow"
-                                                            data-product-id="19056"
-                                                            data-product-type="simple"
-                                                            data-original-product-id="19056"
-                                                            class="add_to_wishlist single_add_to_wishlist"
-                                                            data-title="Add to Wishlist"
-                                                        >
-                                                            <span>Add to Wishlist</span>
-                                                        </a>
-                                                    </div>
-                                                    <!-- COUNT TEXT -->
-                                                </div>
-                                            </div>
-                                            <div class="product-info">
-                                                <div class="title-category">
-                                                    <ul>
-                                                        <li>
-                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
+            {{--                                                    <div class="yith-wcwl-add-button">--}}
+            {{--                                                        <a--}}
+            {{--                                                            href="indexa479.html?add_to_wishlist=19056"--}}
+            {{--                                                            rel="nofollow"--}}
+            {{--                                                            data-product-id="19056"--}}
+            {{--                                                            data-product-type="simple"--}}
+            {{--                                                            data-original-product-id="19056"--}}
+            {{--                                                            class="add_to_wishlist single_add_to_wishlist"--}}
+            {{--                                                            data-title="Add to Wishlist"--}}
+            {{--                                                        >--}}
+            {{--                                                            <span>Add to Wishlist</span>--}}
+            {{--                                                        </a>--}}
+            {{--                                                    </div>--}}
+            {{--                                                    <!-- COUNT TEXT -->--}}
+            {{--                                                </div>--}}
+            {{--                                            </div>--}}
+            {{--                                            <div class="product-info">--}}
+            {{--                                                <div class="title-category">--}}
+            {{--                                                    <ul>--}}
+            {{--                                                        <li>--}}
+            {{--                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>--}}
+            {{--                                                        </li>--}}
+            {{--                                                    </ul>--}}
+            {{--                                                </div>--}}
 
-                                                <h3 class="product-name product_title">
-                                                    <a href="product/mutton-chap-mutton-rezala-1-kg/index.html">Mutton Chap &#8211; 1 KG</a>
-                                                </h3>
+            {{--                                                <h3 class="product-name product_title">--}}
+            {{--                                                    <a href="product/mutton-chap-mutton-rezala-1-kg/index.html">Mutton Chap &#8211; 1 KG</a>--}}
+            {{--                                                </h3>--}}
 
-                                                <span class="price">
-                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>1,200</span>
-                                                        </span>
-                                                <div class="group-button">
-                                                    <div class="inner">
-                                                        <a href="#" class="button yith-wcqv-button" data-product_id="19056">Quick View</a>
-                                                        <div class="add-to-cart">
-                                                            <a
-                                                                href="index16ad.html?add-to-cart=19056"
-                                                                data-quantity="1"
-                                                                class="button product_type_simple add_to_cart_button ajax_add_to_cart"
-                                                                data-product_id="19056"
-                                                                data-product_sku=""
-                                                                aria-label="Add &ldquo;Mutton Chap - 1 KG&rdquo; to your cart"
-                                                                rel="nofollow"
-                                                            >
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="woocommerce product compare-button">
-                                                            <a href="indexb977.html?action=yith-woocompare-add-product&amp;id=19056" class="compare" data-product_id="19056" rel="nofollow">Compare</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item recent-product style-3 rows-space-0 post-19054 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar product_cat-sweets first instock taxable shipping-taxable purchasable product-type-simple"
-                                    >
-                                        <div class="product-inner">
-                                            <div class="product-thumb">
-                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/jilapi-1-kg/index.html">
-                                                    <figure>
-                                                        <img
-                                                            width="300"
-                                                            height="300"
-                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
-                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"
-                                                            alt="Reshmi Jelapi"
-                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-pSUcJpI5/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2019/07/Reshmi-Jelapi.png"
-                                                        />
-                                                    </figure>
-                                                </a>
-                                                <div class="flash"></div>
+            {{--                                                <span class="price">--}}
+            {{--                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>1,200</span>--}}
+            {{--                                                        </span>--}}
+            {{--                                                <div class="group-button">--}}
+            {{--                                                    <div class="inner">--}}
+            {{--                                                        <a href="#" class="button yith-wcqv-button" data-product_id="19056">Quick View</a>--}}
+            {{--                                                        <div class="add-to-cart">--}}
+            {{--                                                            <a--}}
+            {{--                                                                href="index16ad.html?add-to-cart=19056"--}}
+            {{--                                                                data-quantity="1"--}}
+            {{--                                                                class="button product_type_simple add_to_cart_button ajax_add_to_cart"--}}
+            {{--                                                                data-product_id="19056"--}}
+            {{--                                                                data-product_sku=""--}}
+            {{--                                                                aria-label="Add &ldquo;Mutton Chap - 1 KG&rdquo; to your cart"--}}
+            {{--                                                                rel="nofollow"--}}
+            {{--                                                            >--}}
+            {{--                                                                Add to cart--}}
+            {{--                                                            </a>--}}
+            {{--                                                        </div>--}}
+            {{--                                                        <div class="woocommerce product compare-button">--}}
+            {{--                                                            <a href="indexb977.html?action=yith-woocompare-add-product&amp;id=19056" class="compare" data-product_id="19056" rel="nofollow">Compare</a>--}}
+            {{--                                                        </div>--}}
+            {{--                                                    </div>--}}
+            {{--                                                </div>--}}
+            {{--                                            </div>--}}
+            {{--                                        </div>--}}
+            {{--                                    </div>--}}
+            {{--                                    <div--}}
+            {{--                                        class="product-item recent-product style-3 rows-space-0 post-19054 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar product_cat-sweets first instock taxable shipping-taxable purchasable product-type-simple"--}}
+            {{--                                    >--}}
+            {{--                                        <div class="product-inner">--}}
+            {{--                                            <div class="product-thumb">--}}
+            {{--                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/jilapi-1-kg/index.html">--}}
+            {{--                                                    <figure>--}}
+            {{--                                                        <img--}}
+            {{--                                                            width="300"--}}
+            {{--                                                            height="300"--}}
+            {{--                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"--}}
+            {{--                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"--}}
+            {{--                                                            alt="Reshmi Jelapi"--}}
+            {{--                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-pSUcJpI5/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2019/07/Reshmi-Jelapi.png"--}}
+            {{--                                                        />--}}
+            {{--                                                    </figure>--}}
+            {{--                                                </a>--}}
+            {{--                                                <div class="flash"></div>--}}
 
-                                                <div
-                                                    class="yith-wcwl-add-to-wishlist add-to-wishlist-19054 wishlist-fragment on-first-load"
-                                                    data-fragment-ref="19054"
-                                                    data-fragment-options='{"base_url":"","in_default_wishlist":false,"is_single":false,"show_exists":false,"product_id":19054,"parent_product_id":19054,"product_type":"simple","show_view":false,"browse_wishlist_text":"Browse Wishlist","already_in_wishslist_text":"The product is already in the wishlist!","product_added_text":"Product added!","heading_icon":"","available_multi_wishlist":false,"disable_wishlist":false,"show_count":false,"ajax_loading":false,"loop_position":false,"item":"add_to_wishlist"}'
-                                                >
-                                                    <!-- ADD TO WISHLIST -->
+            {{--                                                <div--}}
+            {{--                                                    class="yith-wcwl-add-to-wishlist add-to-wishlist-19054 wishlist-fragment on-first-load"--}}
+            {{--                                                    data-fragment-ref="19054"--}}
+            {{--                                                    data-fragment-options='{"base_url":"","in_default_wishlist":false,"is_single":false,"show_exists":false,"product_id":19054,"parent_product_id":19054,"product_type":"simple","show_view":false,"browse_wishlist_text":"Browse Wishlist","already_in_wishslist_text":"The product is already in the wishlist!","product_added_text":"Product added!","heading_icon":"","available_multi_wishlist":false,"disable_wishlist":false,"show_count":false,"ajax_loading":false,"loop_position":false,"item":"add_to_wishlist"}'--}}
+            {{--                                                >--}}
+            {{--                                                    <!-- ADD TO WISHLIST -->--}}
 
-                                                    <div class="yith-wcwl-add-button">
-                                                        <a
-                                                            href="indexde7b.html?add_to_wishlist=19054"
-                                                            rel="nofollow"
-                                                            data-product-id="19054"
-                                                            data-product-type="simple"
-                                                            data-original-product-id="19054"
-                                                            class="add_to_wishlist single_add_to_wishlist"
-                                                            data-title="Add to Wishlist"
-                                                        >
-                                                            <span>Add to Wishlist</span>
-                                                        </a>
-                                                    </div>
-                                                    <!-- COUNT TEXT -->
-                                                </div>
-                                            </div>
-                                            <div class="product-info">
-                                                <div class="title-category">
-                                                    <ul>
-                                                        <li>
-                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>
-                                                        </li>
+            {{--                                                    <div class="yith-wcwl-add-button">--}}
+            {{--                                                        <a--}}
+            {{--                                                            href="indexde7b.html?add_to_wishlist=19054"--}}
+            {{--                                                            rel="nofollow"--}}
+            {{--                                                            data-product-id="19054"--}}
+            {{--                                                            data-product-type="simple"--}}
+            {{--                                                            data-original-product-id="19054"--}}
+            {{--                                                            class="add_to_wishlist single_add_to_wishlist"--}}
+            {{--                                                            data-title="Add to Wishlist"--}}
+            {{--                                                        >--}}
+            {{--                                                            <span>Add to Wishlist</span>--}}
+            {{--                                                        </a>--}}
+            {{--                                                    </div>--}}
+            {{--                                                    <!-- COUNT TEXT -->--}}
+            {{--                                                </div>--}}
+            {{--                                            </div>--}}
+            {{--                                            <div class="product-info">--}}
+            {{--                                                <div class="title-category">--}}
+            {{--                                                    <ul>--}}
+            {{--                                                        <li>--}}
+            {{--                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>--}}
+            {{--                                                        </li>--}}
 
-                                                        <li>
-                                                            <a class="product-cat" title="Sweets" href="product-category/sweets/index.html">Sweets</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
+            {{--                                                        <li>--}}
+            {{--                                                            <a class="product-cat" title="Sweets" href="product-category/sweets/index.html">Sweets</a>--}}
+            {{--                                                        </li>--}}
+            {{--                                                    </ul>--}}
+            {{--                                                </div>--}}
 
-                                                <h3 class="product-name product_title">
-                                                    <a href="product/jilapi-1-kg/index.html">Jilapi (1 KG)</a>
-                                                </h3>
+            {{--                                                <h3 class="product-name product_title">--}}
+            {{--                                                    <a href="product/jilapi-1-kg/index.html">Jilapi (1 KG)</a>--}}
+            {{--                                                </h3>--}}
 
-                                                <span class="price">
-                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>400</span>
-                                                        </span>
-                                                <div class="group-button">
-                                                    <div class="inner">
-                                                        <a href="#" class="button yith-wcqv-button" data-product_id="19054">Quick View</a>
-                                                        <div class="add-to-cart">
-                                                            <a
-                                                                href="indexf386.html?add-to-cart=19054"
-                                                                data-quantity="1"
-                                                                class="button product_type_simple add_to_cart_button ajax_add_to_cart"
-                                                                data-product_id="19054"
-                                                                data-product_sku="SW-05-1"
-                                                                aria-label="Add &ldquo;Jilapi (1 KG)&rdquo; to your cart"
-                                                                rel="nofollow"
-                                                            >
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="woocommerce product compare-button">
-                                                            <a href="index305c.html?action=yith-woocompare-add-product&amp;id=19054" class="compare" data-product_id="19054" rel="nofollow">Compare</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item recent-product style-3 rows-space-0 post-19052 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar instock taxable shipping-taxable purchasable product-type-simple"
-                                    >
-                                        <div class="product-inner">
-                                            <div class="product-thumb">
-                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/shahi-firni-big-khora/index.html">
-                                                    <figure>
-                                                        <img
-                                                            width="300"
-                                                            height="300"
-                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
-                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"
-                                                            alt="das"
-                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-CXArmP3n/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2021/04/das.jpg"
-                                                        />
-                                                    </figure>
-                                                </a>
-                                                <div class="flash"></div>
+            {{--                                                <span class="price">--}}
+            {{--                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>400</span>--}}
+            {{--                                                        </span>--}}
+            {{--                                                <div class="group-button">--}}
+            {{--                                                    <div class="inner">--}}
+            {{--                                                        <a href="#" class="button yith-wcqv-button" data-product_id="19054">Quick View</a>--}}
+            {{--                                                        <div class="add-to-cart">--}}
+            {{--                                                            <a--}}
+            {{--                                                                href="indexf386.html?add-to-cart=19054"--}}
+            {{--                                                                data-quantity="1"--}}
+            {{--                                                                class="button product_type_simple add_to_cart_button ajax_add_to_cart"--}}
+            {{--                                                                data-product_id="19054"--}}
+            {{--                                                                data-product_sku="SW-05-1"--}}
+            {{--                                                                aria-label="Add &ldquo;Jilapi (1 KG)&rdquo; to your cart"--}}
+            {{--                                                                rel="nofollow"--}}
+            {{--                                                            >--}}
+            {{--                                                                Add to cart--}}
+            {{--                                                            </a>--}}
+            {{--                                                        </div>--}}
+            {{--                                                        <div class="woocommerce product compare-button">--}}
+            {{--                                                            <a href="index305c.html?action=yith-woocompare-add-product&amp;id=19054" class="compare" data-product_id="19054" rel="nofollow">Compare</a>--}}
+            {{--                                                        </div>--}}
+            {{--                                                    </div>--}}
+            {{--                                                </div>--}}
+            {{--                                            </div>--}}
+            {{--                                        </div>--}}
+            {{--                                    </div>--}}
+            {{--                                    <div--}}
+            {{--                                        class="product-item recent-product style-3 rows-space-0 post-19052 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar instock taxable shipping-taxable purchasable product-type-simple"--}}
+            {{--                                    >--}}
+            {{--                                        <div class="product-inner">--}}
+            {{--                                            <div class="product-thumb">--}}
+            {{--                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/shahi-firni-big-khora/index.html">--}}
+            {{--                                                    <figure>--}}
+            {{--                                                        <img--}}
+            {{--                                                            width="300"--}}
+            {{--                                                            height="300"--}}
+            {{--                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"--}}
+            {{--                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"--}}
+            {{--                                                            alt="das"--}}
+            {{--                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-CXArmP3n/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2021/04/das.jpg"--}}
+            {{--                                                        />--}}
+            {{--                                                    </figure>--}}
+            {{--                                                </a>--}}
+            {{--                                                <div class="flash"></div>--}}
 
-                                                <div
-                                                    class="yith-wcwl-add-to-wishlist add-to-wishlist-19052 wishlist-fragment on-first-load"
-                                                    data-fragment-ref="19052"
-                                                    data-fragment-options='{"base_url":"","in_default_wishlist":false,"is_single":false,"show_exists":false,"product_id":19052,"parent_product_id":19052,"product_type":"simple","show_view":false,"browse_wishlist_text":"Browse Wishlist","already_in_wishslist_text":"The product is already in the wishlist!","product_added_text":"Product added!","heading_icon":"","available_multi_wishlist":false,"disable_wishlist":false,"show_count":false,"ajax_loading":false,"loop_position":false,"item":"add_to_wishlist"}'
-                                                >
-                                                    <!-- ADD TO WISHLIST -->
+            {{--                                                <div--}}
+            {{--                                                    class="yith-wcwl-add-to-wishlist add-to-wishlist-19052 wishlist-fragment on-first-load"--}}
+            {{--                                                    data-fragment-ref="19052"--}}
+            {{--                                                    data-fragment-options='{"base_url":"","in_default_wishlist":false,"is_single":false,"show_exists":false,"product_id":19052,"parent_product_id":19052,"product_type":"simple","show_view":false,"browse_wishlist_text":"Browse Wishlist","already_in_wishslist_text":"The product is already in the wishlist!","product_added_text":"Product added!","heading_icon":"","available_multi_wishlist":false,"disable_wishlist":false,"show_count":false,"ajax_loading":false,"loop_position":false,"item":"add_to_wishlist"}'--}}
+            {{--                                                >--}}
+            {{--                                                    <!-- ADD TO WISHLIST -->--}}
 
-                                                    <div class="yith-wcwl-add-button">
-                                                        <a
-                                                            href="index018f.html?add_to_wishlist=19052"
-                                                            rel="nofollow"
-                                                            data-product-id="19052"
-                                                            data-product-type="simple"
-                                                            data-original-product-id="19052"
-                                                            class="add_to_wishlist single_add_to_wishlist"
-                                                            data-title="Add to Wishlist"
-                                                        >
-                                                            <span>Add to Wishlist</span>
-                                                        </a>
-                                                    </div>
-                                                    <!-- COUNT TEXT -->
-                                                </div>
-                                            </div>
-                                            <div class="product-info">
-                                                <div class="title-category">
-                                                    <ul>
-                                                        <li>
-                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
+            {{--                                                    <div class="yith-wcwl-add-button">--}}
+            {{--                                                        <a--}}
+            {{--                                                            href="index018f.html?add_to_wishlist=19052"--}}
+            {{--                                                            rel="nofollow"--}}
+            {{--                                                            data-product-id="19052"--}}
+            {{--                                                            data-product-type="simple"--}}
+            {{--                                                            data-original-product-id="19052"--}}
+            {{--                                                            class="add_to_wishlist single_add_to_wishlist"--}}
+            {{--                                                            data-title="Add to Wishlist"--}}
+            {{--                                                        >--}}
+            {{--                                                            <span>Add to Wishlist</span>--}}
+            {{--                                                        </a>--}}
+            {{--                                                    </div>--}}
+            {{--                                                    <!-- COUNT TEXT -->--}}
+            {{--                                                </div>--}}
+            {{--                                            </div>--}}
+            {{--                                            <div class="product-info">--}}
+            {{--                                                <div class="title-category">--}}
+            {{--                                                    <ul>--}}
+            {{--                                                        <li>--}}
+            {{--                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>--}}
+            {{--                                                        </li>--}}
+            {{--                                                    </ul>--}}
+            {{--                                                </div>--}}
 
-                                                <h3 class="product-name product_title">
-                                                    <a href="product/shahi-firni-big-khora/index.html">Shahi Firni (Big Khora)</a>
-                                                </h3>
+            {{--                                                <h3 class="product-name product_title">--}}
+            {{--                                                    <a href="product/shahi-firni-big-khora/index.html">Shahi Firni (Big Khora)</a>--}}
+            {{--                                                </h3>--}}
 
-                                                <span class="price">
-                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>200</span>
-                                                        </span>
-                                                <div class="group-button">
-                                                    <div class="inner">
-                                                        <a href="#" class="button yith-wcqv-button" data-product_id="19052">Quick View</a>
-                                                        <div class="add-to-cart">
-                                                            <a
-                                                                href="indexa9d2.html?add-to-cart=19052"
-                                                                data-quantity="1"
-                                                                class="button product_type_simple add_to_cart_button ajax_add_to_cart"
-                                                                data-product_id="19052"
-                                                                data-product_sku=""
-                                                                aria-label="Add &ldquo;Shahi Firni (Big Khora)&rdquo; to your cart"
-                                                                rel="nofollow"
-                                                            >
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="woocommerce product compare-button">
-                                                            <a href="index32e1.html?action=yith-woocompare-add-product&amp;id=19052" class="compare" data-product_id="19052" rel="nofollow">Compare</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item recent-product style-3 rows-space-0 post-19051 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar instock taxable shipping-taxable purchasable product-type-simple"
-                                    >
-                                        <div class="product-inner">
-                                            <div class="product-thumb">
-                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/chicken-haleem-small/index.html">
-                                                    <figure>
-                                                        <img
-                                                            width="300"
-                                                            height="300"
-                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
-                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"
-                                                            alt="4"
-                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-TZKkSz4h/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2021/04/4.png"
-                                                        />
-                                                    </figure>
-                                                </a>
-                                                <div class="flash"></div>
+            {{--                                                <span class="price">--}}
+            {{--                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>200</span>--}}
+            {{--                                                        </span>--}}
+            {{--                                                <div class="group-button">--}}
+            {{--                                                    <div class="inner">--}}
+            {{--                                                        <a href="#" class="button yith-wcqv-button" data-product_id="19052">Quick View</a>--}}
+            {{--                                                        <div class="add-to-cart">--}}
+            {{--                                                            <a--}}
+            {{--                                                                href="indexa9d2.html?add-to-cart=19052"--}}
+            {{--                                                                data-quantity="1"--}}
+            {{--                                                                class="button product_type_simple add_to_cart_button ajax_add_to_cart"--}}
+            {{--                                                                data-product_id="19052"--}}
+            {{--                                                                data-product_sku=""--}}
+            {{--                                                                aria-label="Add &ldquo;Shahi Firni (Big Khora)&rdquo; to your cart"--}}
+            {{--                                                                rel="nofollow"--}}
+            {{--                                                            >--}}
+            {{--                                                                Add to cart--}}
+            {{--                                                            </a>--}}
+            {{--                                                        </div>--}}
+            {{--                                                        <div class="woocommerce product compare-button">--}}
+            {{--                                                            <a href="index32e1.html?action=yith-woocompare-add-product&amp;id=19052" class="compare" data-product_id="19052" rel="nofollow">Compare</a>--}}
+            {{--                                                        </div>--}}
+            {{--                                                    </div>--}}
+            {{--                                                </div>--}}
+            {{--                                            </div>--}}
+            {{--                                        </div>--}}
+            {{--                                    </div>--}}
+            {{--                                    <div--}}
+            {{--                                        class="product-item recent-product style-3 rows-space-0 post-19051 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar instock taxable shipping-taxable purchasable product-type-simple"--}}
+            {{--                                    >--}}
+            {{--                                        <div class="product-inner">--}}
+            {{--                                            <div class="product-thumb">--}}
+            {{--                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/chicken-haleem-small/index.html">--}}
+            {{--                                                    <figure>--}}
+            {{--                                                        <img--}}
+            {{--                                                            width="300"--}}
+            {{--                                                            height="300"--}}
+            {{--                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"--}}
+            {{--                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"--}}
+            {{--                                                            alt="4"--}}
+            {{--                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-TZKkSz4h/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2021/04/4.png"--}}
+            {{--                                                        />--}}
+            {{--                                                    </figure>--}}
+            {{--                                                </a>--}}
+            {{--                                                <div class="flash"></div>--}}
 
-                                                <div
-                                                    class="yith-wcwl-add-to-wishlist add-to-wishlist-19051 wishlist-fragment on-first-load"
-                                                    data-fragment-ref="19051"
-                                                    data-fragment-options='{"base_url":"","in_default_wishlist":false,"is_single":false,"show_exists":false,"product_id":19051,"parent_product_id":19051,"product_type":"simple","show_view":false,"browse_wishlist_text":"Browse Wishlist","already_in_wishslist_text":"The product is already in the wishlist!","product_added_text":"Product added!","heading_icon":"","available_multi_wishlist":false,"disable_wishlist":false,"show_count":false,"ajax_loading":false,"loop_position":false,"item":"add_to_wishlist"}'
-                                                >
-                                                    <!-- ADD TO WISHLIST -->
+            {{--                                                <div--}}
+            {{--                                                    class="yith-wcwl-add-to-wishlist add-to-wishlist-19051 wishlist-fragment on-first-load"--}}
+            {{--                                                    data-fragment-ref="19051"--}}
+            {{--                                                    data-fragment-options='{"base_url":"","in_default_wishlist":false,"is_single":false,"show_exists":false,"product_id":19051,"parent_product_id":19051,"product_type":"simple","show_view":false,"browse_wishlist_text":"Browse Wishlist","already_in_wishslist_text":"The product is already in the wishlist!","product_added_text":"Product added!","heading_icon":"","available_multi_wishlist":false,"disable_wishlist":false,"show_count":false,"ajax_loading":false,"loop_position":false,"item":"add_to_wishlist"}'--}}
+            {{--                                                >--}}
+            {{--                                                    <!-- ADD TO WISHLIST -->--}}
 
-                                                    <div class="yith-wcwl-add-button">
-                                                        <a
-                                                            href="index3f16.html?add_to_wishlist=19051"
-                                                            rel="nofollow"
-                                                            data-product-id="19051"
-                                                            data-product-type="simple"
-                                                            data-original-product-id="19051"
-                                                            class="add_to_wishlist single_add_to_wishlist"
-                                                            data-title="Add to Wishlist"
-                                                        >
-                                                            <span>Add to Wishlist</span>
-                                                        </a>
-                                                    </div>
-                                                    <!-- COUNT TEXT -->
-                                                </div>
-                                            </div>
-                                            <div class="product-info">
-                                                <div class="title-category">
-                                                    <ul>
-                                                        <li>
-                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
+            {{--                                                    <div class="yith-wcwl-add-button">--}}
+            {{--                                                        <a--}}
+            {{--                                                            href="index3f16.html?add_to_wishlist=19051"--}}
+            {{--                                                            rel="nofollow"--}}
+            {{--                                                            data-product-id="19051"--}}
+            {{--                                                            data-product-type="simple"--}}
+            {{--                                                            data-original-product-id="19051"--}}
+            {{--                                                            class="add_to_wishlist single_add_to_wishlist"--}}
+            {{--                                                            data-title="Add to Wishlist"--}}
+            {{--                                                        >--}}
+            {{--                                                            <span>Add to Wishlist</span>--}}
+            {{--                                                        </a>--}}
+            {{--                                                    </div>--}}
+            {{--                                                    <!-- COUNT TEXT -->--}}
+            {{--                                                </div>--}}
+            {{--                                            </div>--}}
+            {{--                                            <div class="product-info">--}}
+            {{--                                                <div class="title-category">--}}
+            {{--                                                    <ul>--}}
+            {{--                                                        <li>--}}
+            {{--                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>--}}
+            {{--                                                        </li>--}}
+            {{--                                                    </ul>--}}
+            {{--                                                </div>--}}
 
-                                                <h3 class="product-name product_title">
-                                                    <a href="product/chicken-haleem-small/index.html">Chicken Haleem (Small)</a>
-                                                </h3>
+            {{--                                                <h3 class="product-name product_title">--}}
+            {{--                                                    <a href="product/chicken-haleem-small/index.html">Chicken Haleem (Small)</a>--}}
+            {{--                                                </h3>--}}
 
-                                                <span class="price">
-                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>200</span>
-                                                        </span>
-                                                <div class="group-button">
-                                                    <div class="inner">
-                                                        <a href="#" class="button yith-wcqv-button" data-product_id="19051">Quick View</a>
-                                                        <div class="add-to-cart">
-                                                            <a
-                                                                href="index0afc.html?add-to-cart=19051"
-                                                                data-quantity="1"
-                                                                class="button product_type_simple add_to_cart_button ajax_add_to_cart"
-                                                                data-product_id="19051"
-                                                                data-product_sku=""
-                                                                aria-label="Add &ldquo;Chicken Haleem (Small)&rdquo; to your cart"
-                                                                rel="nofollow"
-                                                            >
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="woocommerce product compare-button">
-                                                            <a href="indexad8f.html?action=yith-woocompare-add-product&amp;id=19051" class="compare" data-product_id="19051" rel="nofollow">Compare</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item recent-product style-3 rows-space-0 post-19049 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar last instock taxable shipping-taxable purchasable product-type-simple"
-                                    >
-                                        <div class="product-inner">
-                                            <div class="product-thumb">
-                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/chicken-haleem-medium/index.html">
-                                                    <figure>
-                                                        <img
-                                                            width="300"
-                                                            height="300"
-                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
-                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"
-                                                            alt="4"
-                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-TZKkSz4h/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2021/04/4.png"
-                                                        />
-                                                    </figure>
-                                                </a>
-                                                <div class="flash"></div>
+            {{--                                                <span class="price">--}}
+            {{--                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>200</span>--}}
+            {{--                                                        </span>--}}
+            {{--                                                <div class="group-button">--}}
+            {{--                                                    <div class="inner">--}}
+            {{--                                                        <a href="#" class="button yith-wcqv-button" data-product_id="19051">Quick View</a>--}}
+            {{--                                                        <div class="add-to-cart">--}}
+            {{--                                                            <a--}}
+            {{--                                                                href="index0afc.html?add-to-cart=19051"--}}
+            {{--                                                                data-quantity="1"--}}
+            {{--                                                                class="button product_type_simple add_to_cart_button ajax_add_to_cart"--}}
+            {{--                                                                data-product_id="19051"--}}
+            {{--                                                                data-product_sku=""--}}
+            {{--                                                                aria-label="Add &ldquo;Chicken Haleem (Small)&rdquo; to your cart"--}}
+            {{--                                                                rel="nofollow"--}}
+            {{--                                                            >--}}
+            {{--                                                                Add to cart--}}
+            {{--                                                            </a>--}}
+            {{--                                                        </div>--}}
+            {{--                                                        <div class="woocommerce product compare-button">--}}
+            {{--                                                            <a href="indexad8f.html?action=yith-woocompare-add-product&amp;id=19051" class="compare" data-product_id="19051" rel="nofollow">Compare</a>--}}
+            {{--                                                        </div>--}}
+            {{--                                                    </div>--}}
+            {{--                                                </div>--}}
+            {{--                                            </div>--}}
+            {{--                                        </div>--}}
+            {{--                                    </div>--}}
+            {{--                                    <div--}}
+            {{--                                        class="product-item recent-product style-3 rows-space-0 post-19049 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar last instock taxable shipping-taxable purchasable product-type-simple"--}}
+            {{--                                    >--}}
+            {{--                                        <div class="product-inner">--}}
+            {{--                                            <div class="product-thumb">--}}
+            {{--                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/chicken-haleem-medium/index.html">--}}
+            {{--                                                    <figure>--}}
+            {{--                                                        <img--}}
+            {{--                                                            width="300"--}}
+            {{--                                                            height="300"--}}
+            {{--                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"--}}
+            {{--                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"--}}
+            {{--                                                            alt="4"--}}
+            {{--                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-TZKkSz4h/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2021/04/4.png"--}}
+            {{--                                                        />--}}
+            {{--                                                    </figure>--}}
+            {{--                                                </a>--}}
+            {{--                                                <div class="flash"></div>--}}
 
-                                                <div
-                                                    class="yith-wcwl-add-to-wishlist add-to-wishlist-19049 wishlist-fragment on-first-load"
-                                                    data-fragment-ref="19049"
-                                                    data-fragment-options='{"base_url":"","in_default_wishlist":false,"is_single":false,"show_exists":false,"product_id":19049,"parent_product_id":19049,"product_type":"simple","show_view":false,"browse_wishlist_text":"Browse Wishlist","already_in_wishslist_text":"The product is already in the wishlist!","product_added_text":"Product added!","heading_icon":"","available_multi_wishlist":false,"disable_wishlist":false,"show_count":false,"ajax_loading":false,"loop_position":false,"item":"add_to_wishlist"}'
-                                                >
-                                                    <!-- ADD TO WISHLIST -->
+            {{--                                                <div--}}
+            {{--                                                    class="yith-wcwl-add-to-wishlist add-to-wishlist-19049 wishlist-fragment on-first-load"--}}
+            {{--                                                    data-fragment-ref="19049"--}}
+            {{--                                                    data-fragment-options='{"base_url":"","in_default_wishlist":false,"is_single":false,"show_exists":false,"product_id":19049,"parent_product_id":19049,"product_type":"simple","show_view":false,"browse_wishlist_text":"Browse Wishlist","already_in_wishslist_text":"The product is already in the wishlist!","product_added_text":"Product added!","heading_icon":"","available_multi_wishlist":false,"disable_wishlist":false,"show_count":false,"ajax_loading":false,"loop_position":false,"item":"add_to_wishlist"}'--}}
+            {{--                                                >--}}
+            {{--                                                    <!-- ADD TO WISHLIST -->--}}
 
-                                                    <div class="yith-wcwl-add-button">
-                                                        <a
-                                                            href="index4ff3.html?add_to_wishlist=19049"
-                                                            rel="nofollow"
-                                                            data-product-id="19049"
-                                                            data-product-type="simple"
-                                                            data-original-product-id="19049"
-                                                            class="add_to_wishlist single_add_to_wishlist"
-                                                            data-title="Add to Wishlist"
-                                                        >
-                                                            <span>Add to Wishlist</span>
-                                                        </a>
-                                                    </div>
-                                                    <!-- COUNT TEXT -->
-                                                </div>
-                                            </div>
-                                            <div class="product-info">
-                                                <div class="title-category">
-                                                    <ul>
-                                                        <li>
-                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
+            {{--                                                    <div class="yith-wcwl-add-button">--}}
+            {{--                                                        <a--}}
+            {{--                                                            href="index4ff3.html?add_to_wishlist=19049"--}}
+            {{--                                                            rel="nofollow"--}}
+            {{--                                                            data-product-id="19049"--}}
+            {{--                                                            data-product-type="simple"--}}
+            {{--                                                            data-original-product-id="19049"--}}
+            {{--                                                            class="add_to_wishlist single_add_to_wishlist"--}}
+            {{--                                                            data-title="Add to Wishlist"--}}
+            {{--                                                        >--}}
+            {{--                                                            <span>Add to Wishlist</span>--}}
+            {{--                                                        </a>--}}
+            {{--                                                    </div>--}}
+            {{--                                                    <!-- COUNT TEXT -->--}}
+            {{--                                                </div>--}}
+            {{--                                            </div>--}}
+            {{--                                            <div class="product-info">--}}
+            {{--                                                <div class="title-category">--}}
+            {{--                                                    <ul>--}}
+            {{--                                                        <li>--}}
+            {{--                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>--}}
+            {{--                                                        </li>--}}
+            {{--                                                    </ul>--}}
+            {{--                                                </div>--}}
 
-                                                <h3 class="product-name product_title">
-                                                    <a href="product/chicken-haleem-medium/index.html">Chicken Haleem (Medium)</a>
-                                                </h3>
+            {{--                                                <h3 class="product-name product_title">--}}
+            {{--                                                    <a href="product/chicken-haleem-medium/index.html">Chicken Haleem (Medium)</a>--}}
+            {{--                                                </h3>--}}
 
-                                                <span class="price">
-                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>450</span>
-                                                        </span>
-                                                <div class="group-button">
-                                                    <div class="inner">
-                                                        <a href="#" class="button yith-wcqv-button" data-product_id="19049">Quick View</a>
-                                                        <div class="add-to-cart">
-                                                            <a
-                                                                href="index4fbd.html?add-to-cart=19049"
-                                                                data-quantity="1"
-                                                                class="button product_type_simple add_to_cart_button ajax_add_to_cart"
-                                                                data-product_id="19049"
-                                                                data-product_sku=""
-                                                                aria-label="Add &ldquo;Chicken Haleem (Medium)&rdquo; to your cart"
-                                                                rel="nofollow"
-                                                            >
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="woocommerce product compare-button">
-                                                            <a href="index3326.html?action=yith-woocompare-add-product&amp;id=19049" class="compare" data-product_id="19049" rel="nofollow">Compare</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="product-item recent-product style-3 rows-space-0 post-19047 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar first instock taxable shipping-taxable purchasable product-type-simple"
-                                    >
-                                        <div class="product-inner">
-                                            <div class="product-thumb">
-                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/beef-haleem-medium/index.html">
-                                                    <figure>
-                                                        <img
-                                                            width="300"
-                                                            height="300"
-                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"
-                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"
-                                                            alt="6"
-                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-hCjskD4n/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2021/04/6.png"
-                                                        />
-                                                    </figure>
-                                                </a>
-                                                <div class="flash"></div>
+            {{--                                                <span class="price">--}}
+            {{--                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>450</span>--}}
+            {{--                                                        </span>--}}
+            {{--                                                <div class="group-button">--}}
+            {{--                                                    <div class="inner">--}}
+            {{--                                                        <a href="#" class="button yith-wcqv-button" data-product_id="19049">Quick View</a>--}}
+            {{--                                                        <div class="add-to-cart">--}}
+            {{--                                                            <a--}}
+            {{--                                                                href="index4fbd.html?add-to-cart=19049"--}}
+            {{--                                                                data-quantity="1"--}}
+            {{--                                                                class="button product_type_simple add_to_cart_button ajax_add_to_cart"--}}
+            {{--                                                                data-product_id="19049"--}}
+            {{--                                                                data-product_sku=""--}}
+            {{--                                                                aria-label="Add &ldquo;Chicken Haleem (Medium)&rdquo; to your cart"--}}
+            {{--                                                                rel="nofollow"--}}
+            {{--                                                            >--}}
+            {{--                                                                Add to cart--}}
+            {{--                                                            </a>--}}
+            {{--                                                        </div>--}}
+            {{--                                                        <div class="woocommerce product compare-button">--}}
+            {{--                                                            <a href="index3326.html?action=yith-woocompare-add-product&amp;id=19049" class="compare" data-product_id="19049" rel="nofollow">Compare</a>--}}
+            {{--                                                        </div>--}}
+            {{--                                                    </div>--}}
+            {{--                                                </div>--}}
+            {{--                                            </div>--}}
+            {{--                                        </div>--}}
+            {{--                                    </div>--}}
+            {{--                                    <div--}}
+            {{--                                        class="product-item recent-product style-3 rows-space-0 post-19047 product type-product status-publish has-post-thumbnail product_cat-iftar-bazar first instock taxable shipping-taxable purchasable product-type-simple"--}}
+            {{--                                    >--}}
+            {{--                                        <div class="product-inner">--}}
+            {{--                                            <div class="product-thumb">--}}
+            {{--                                                <a class="thumb-link woocommerce-product-gallery__image" href="product/beef-haleem-medium/index.html">--}}
+            {{--                                                    <figure>--}}
+            {{--                                                        <img--}}
+            {{--                                                            width="300"--}}
+            {{--                                                            height="300"--}}
+            {{--                                                            src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22300%22%20viewBox%3D%220%200%20300%20300%22%3E%3C%2Fsvg%3E"--}}
+            {{--                                                            class="wp-post-image attachment-300x300 size-300x300 lazy"--}}
+            {{--                                                            alt="6"--}}
+            {{--                                                            data-src="../ml1jnkl0l3eh.i.optimole.com/ioGHWlw-hCjskD4n/w_300/h_300/q_auto/rt_fill/g_ce/https_/fakruddin.com/wp-content/uploads/2021/04/6.png"--}}
+            {{--                                                        />--}}
+            {{--                                                    </figure>--}}
+            {{--                                                </a>--}}
+            {{--                                                <div class="flash"></div>--}}
 
-                                                <div
-                                                    class="yith-wcwl-add-to-wishlist add-to-wishlist-19047 wishlist-fragment on-first-load"
-                                                    data-fragment-ref="19047"
-                                                    data-fragment-options='{"base_url":"","in_default_wishlist":false,"is_single":false,"show_exists":false,"product_id":19047,"parent_product_id":19047,"product_type":"simple","show_view":false,"browse_wishlist_text":"Browse Wishlist","already_in_wishslist_text":"The product is already in the wishlist!","product_added_text":"Product added!","heading_icon":"","available_multi_wishlist":false,"disable_wishlist":false,"show_count":false,"ajax_loading":false,"loop_position":false,"item":"add_to_wishlist"}'
-                                                >
-                                                    <!-- ADD TO WISHLIST -->
+            {{--                                                <div--}}
+            {{--                                                    class="yith-wcwl-add-to-wishlist add-to-wishlist-19047 wishlist-fragment on-first-load"--}}
+            {{--                                                    data-fragment-ref="19047"--}}
+            {{--                                                    data-fragment-options='{"base_url":"","in_default_wishlist":false,"is_single":false,"show_exists":false,"product_id":19047,"parent_product_id":19047,"product_type":"simple","show_view":false,"browse_wishlist_text":"Browse Wishlist","already_in_wishslist_text":"The product is already in the wishlist!","product_added_text":"Product added!","heading_icon":"","available_multi_wishlist":false,"disable_wishlist":false,"show_count":false,"ajax_loading":false,"loop_position":false,"item":"add_to_wishlist"}'--}}
+            {{--                                                >--}}
+            {{--                                                    <!-- ADD TO WISHLIST -->--}}
 
-                                                    <div class="yith-wcwl-add-button">
-                                                        <a
-                                                            href="index5c40.html?add_to_wishlist=19047"
-                                                            rel="nofollow"
-                                                            data-product-id="19047"
-                                                            data-product-type="simple"
-                                                            data-original-product-id="19047"
-                                                            class="add_to_wishlist single_add_to_wishlist"
-                                                            data-title="Add to Wishlist"
-                                                        >
-                                                            <span>Add to Wishlist</span>
-                                                        </a>
-                                                    </div>
-                                                    <!-- COUNT TEXT -->
-                                                </div>
-                                            </div>
-                                            <div class="product-info">
-                                                <div class="title-category">
-                                                    <ul>
-                                                        <li>
-                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
+            {{--                                                    <div class="yith-wcwl-add-button">--}}
+            {{--                                                        <a--}}
+            {{--                                                            href="index5c40.html?add_to_wishlist=19047"--}}
+            {{--                                                            rel="nofollow"--}}
+            {{--                                                            data-product-id="19047"--}}
+            {{--                                                            data-product-type="simple"--}}
+            {{--                                                            data-original-product-id="19047"--}}
+            {{--                                                            class="add_to_wishlist single_add_to_wishlist"--}}
+            {{--                                                            data-title="Add to Wishlist"--}}
+            {{--                                                        >--}}
+            {{--                                                            <span>Add to Wishlist</span>--}}
+            {{--                                                        </a>--}}
+            {{--                                                    </div>--}}
+            {{--                                                    <!-- COUNT TEXT -->--}}
+            {{--                                                </div>--}}
+            {{--                                            </div>--}}
+            {{--                                            <div class="product-info">--}}
+            {{--                                                <div class="title-category">--}}
+            {{--                                                    <ul>--}}
+            {{--                                                        <li>--}}
+            {{--                                                            <a class="product-cat" title="Iftar Bazaar" href="product-category/iftar-bazar/index.html">Iftar Bazaar</a>--}}
+            {{--                                                        </li>--}}
+            {{--                                                    </ul>--}}
+            {{--                                                </div>--}}
 
-                                                <h3 class="product-name product_title">
-                                                    <a href="product/beef-haleem-medium/index.html">Mutton Haleem (Medium)</a>
-                                                </h3>
+            {{--                                                <h3 class="product-name product_title">--}}
+            {{--                                                    <a href="product/beef-haleem-medium/index.html">Mutton Haleem (Medium)</a>--}}
+            {{--                                                </h3>--}}
 
-                                                <span class="price">
-                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>450</span>
-                                                        </span>
-                                                <div class="group-button">
-                                                    <div class="inner">
-                                                        <a href="#" class="button yith-wcqv-button" data-product_id="19047">Quick View</a>
-                                                        <div class="add-to-cart">
-                                                            <a
-                                                                href="index7517.html?add-to-cart=19047"
-                                                                data-quantity="1"
-                                                                class="button product_type_simple add_to_cart_button ajax_add_to_cart"
-                                                                data-product_id="19047"
-                                                                data-product_sku=""
-                                                                aria-label="Add &ldquo;Mutton Haleem (Medium)&rdquo; to your cart"
-                                                                rel="nofollow"
-                                                            >
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="woocommerce product compare-button">
-                                                            <a href="indexf8e0.html?action=yith-woocompare-add-product&amp;id=19047" class="compare" data-product_id="19047" rel="nofollow">Compare</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            {{--                                                <span class="price">--}}
+            {{--                                                            <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span>450</span>--}}
+            {{--                                                        </span>--}}
+            {{--                                                <div class="group-button">--}}
+            {{--                                                    <div class="inner">--}}
+            {{--                                                        <a href="#" class="button yith-wcqv-button" data-product_id="19047">Quick View</a>--}}
+            {{--                                                        <div class="add-to-cart">--}}
+            {{--                                                            <a--}}
+            {{--                                                                href="index7517.html?add-to-cart=19047"--}}
+            {{--                                                                data-quantity="1"--}}
+            {{--                                                                class="button product_type_simple add_to_cart_button ajax_add_to_cart"--}}
+            {{--                                                                data-product_id="19047"--}}
+            {{--                                                                data-product_sku=""--}}
+            {{--                                                                aria-label="Add &ldquo;Mutton Haleem (Medium)&rdquo; to your cart"--}}
+            {{--                                                                rel="nofollow"--}}
+            {{--                                                            >--}}
+            {{--                                                                Add to cart--}}
+            {{--                                                            </a>--}}
+            {{--                                                        </div>--}}
+            {{--                                                        <div class="woocommerce product compare-button">--}}
+            {{--                                                            <a href="indexf8e0.html?action=yith-woocompare-add-product&amp;id=19047" class="compare" data-product_id="19047" rel="nofollow">Compare</a>--}}
+            {{--                                                        </div>--}}
+            {{--                                                    </div>--}}
+            {{--                                                </div>--}}
+            {{--                                            </div>--}}
+            {{--                                        </div>--}}
+            {{--                                    </div>--}}
+            {{--                                </div>--}}
+            {{--                            </div>--}}
+            {{--                        </div>--}}
+            {{--                    </div>--}}
+            {{--                </div>--}}
+            {{--            </div>--}}
         </div>
     </div>
 </div>
@@ -4165,7 +4438,7 @@
         <a href="cart/index.html" class="button wc-forward">View Cart</a>
     </div>
 </div>
-<a class="wp-call-button" href="tel:+8801740000004"></a>
+<a class="wp-call-button" href="tel:+8801937990932"></a>
 <footer class="footer ovic-footer">
     <div class="container">
         <div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid ovic_custom_6045e06714916 vc_custom_1530089016648 vc_custom_1530089016691">
@@ -4177,8 +4450,8 @@
                                 <div class="vc_single_image-wrapper vc_box_border_grey">
                                     <img
                                         class="vc_single_image-img lazy attachment-full"
-                                        src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%20431%20129%27%2F%3E"
-                                        data-src="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-HlvqHU_Y/w:auto/h:auto/q:auto/https://fakruddin.com/wp-content/uploads/2018/06/logo-big.png"
+                                        src="{{asset('assets/front-end/images/logo-khan.png')}}"
+                                        data-src="{{asset('assets/front-end/images/logo-khan.png')}}"
                                         width="431"
                                         height="129"
                                         alt="Footer 02"
@@ -4194,8 +4467,9 @@
                                 <div class="content">
                                     <p class="text">
                                         Got Questions ?<br />
-                                        (+880) 174 000 0004<br />
-                                        (+880) 171 555 3330
+                                        (+880) 1937 990 932
+                                        <br />
+                                        (+880) 1937 990 933
                                     </p>
                                 </div>
                             </div>
@@ -4206,7 +4480,7 @@
                                     <div class="icon"><span class="fa fa-whatsapp"></span></div>
                                 </div>
                                 <div class="content">
-                                    <p class="text"><b>WhatsApp: +880 174 000 000 4</b></p>
+                                    <p class="text"><b>WhatsApp: +(+880) 1937 990 933</b></p>
                                 </div>
                             </div>
                         </div>
@@ -4233,44 +4507,14 @@
                                 <h2 class="widgettitle">Useful Links</h2>
                                 <div class="ovic-menu-wapper horizontal">
                                     <ul id="menu-footer-useful-links" class="menu ovic-menu">
-                                        <li id="menu-item-2855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2855"><a href="our-history/index.html">Our History</a></li>
-                                        <li id="menu-item-2858" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2858"><a href="restaurant-menu/index.html">Restaurant Menu</a></li>
-                                        <li id="menu-item-2857" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2857"><a href="local-branches/index.html">Local Branches</a></li>
-                                        <li id="menu-item-2856" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2856"><a href="franchise/index.html">Franchise</a></li>
-                                        <li id="menu-item-2859" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2859"><a href="our-gallery/index.html">Our Gallery</a></li>
-                                        <li id="menu-item-2817" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2817"><a href="contact-us/index.html">Contact Us</a></li>
+                                        <li id="menu-item-2855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2855"><a href="{{'/'}}">Home</a></li>
+                                        <li id="menu-item-2858" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2858"><a href="#">Restaurant Menu</a></li>
+                                        <li id="menu-item-2857" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2857"><a href="#">Local Branches</a></li>
+                                        {{--                                        <li id="menu-item-2856" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2856"><a href="">Franchise</a></li>--}}
+                                        {{--                                        <li id="menu-item-2859" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2859"><a href="our-gallery/index.html">Our Gallery</a></li>--}}
+                                        <li id="menu-item-2817" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2817"><a href="#">Contact Us</a></li>
                                     </ul>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-2 vc_col-md-2 vc_col-xs-12 ovic_custom_6045e06714927 vc_custom_1535426503953">
-                <div class="vc_column-inner">
-                    <div class="wpb_wrapper">
-                        <div class="wpb_single_image wpb_content_element vc_align_left ovic_custom_6045e06714928">
-                            <figure class="wpb_wrapper vc_figure">
-                                <div class="vc_single_image-wrapper vc_box_border_grey">
-                                    <img
-                                        class="vc_single_image-img lazy attachment-thumbnail"
-                                        src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%20150%20150%27%2F%3E"
-                                        data-src="https://ml1jnkl0l3eh.i.optimole.com/ioGHWlw-asum1ZVD/w:150/h:150/q:auto/https://fakruddin.com/wp-content/uploads/2018/06/OcUyW0lb_400x400.jpg"
-                                        width="150"
-                                        height="150"
-                                        alt="Home 06"
-                                    />
-                                </div>
-                            </figure>
-                        </div>
-
-                        <div class="wpb_text_column wpb_content_element ovic_custom_6045e06714929">
-                            <div class="wpb_wrapper">
-                                <p style="text-align: left;">
-                                    <a href="http://fakruddinkitchen.com/">
-                                        <strong>Visit: <span style="color: #032147;">Fakruddin Kitchen for Awesome Recipies</span></strong>
-                                    </a>
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -4288,7 +4532,8 @@
                                     <div class="icon"><span class="flaticon-placeholder"></span></div>
                                 </div>
                                 <div class="content">
-                                    <p class="text">37, South Gulshan - 1, Dhaka-1212, Bangladesh</p>
+                                    <p class="text">
+                                        HOUSE-47,RD NO:13,BLOCK: E,BANANI 1213,DHAKA</p>
                                 </div>
                             </div>
                         </div>
@@ -4298,21 +4543,22 @@
                                     <div class="icon"><span class="flaticon-smartphone"></span></div>
                                 </div>
                                 <div class="content">
-                                    <p class="text">Phone: +880 22222 63937</p>
-                                    <p>Cell: +880 1715 55 33 30, +880 1744 99 33 11</p>
+                                    <p class="text">Phone:
+                                        (+880) 1937 990 932</p>
+                                    <p>(+880) 1937 990 933</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="ovic-iconbox style4 Text Align Left footer_icon_mail footer_icon_mail ovic_custom_6045e06714932 vc_custom_1606804323066">
-                            <div class="iconbox-inner">
-                                <div class="box-icon">
-                                    <div class="icon"><span class="flaticon-message"></span></div>
-                                </div>
-                                <div class="content">
-                                    <p class="text">Email: info@fakruddin.com, fakruddingroup@gmail.com</p>
-                                </div>
-                            </div>
-                        </div>
+                        {{--                        <div class="ovic-iconbox style4 Text Align Left footer_icon_mail footer_icon_mail ovic_custom_6045e06714932 vc_custom_1606804323066">--}}
+                        {{--                            <div class="iconbox-inner">--}}
+                        {{--                                <div class="box-icon">--}}
+                        {{--                                    <div class="icon"><span class="flaticon-message"></span></div>--}}
+                        {{--                                </div>--}}
+                        {{--                                <div class="content">--}}
+                        {{--                                    <p class="text">Email: info@fakruddin.com, fakruddingroup@gmail.com</p>--}}
+                        {{--                                </div>--}}
+                        {{--                            </div>--}}
+                        {{--                        </div>--}}
                         <div class="ovic-iconbox style4 Text Align Left ovic_custom_6045e06714933 vc_custom_1605970642039">
                             <div class="iconbox-inner">
                                 <div class="box-icon">
@@ -4327,20 +4573,20 @@
                             <div class="content-socials">
                                 <ul class="socials-list">
                                     <li>
-                                        <a href="https://www.facebook.com/FakruddinBiryaniBD">
+                                        <a href="https://www.facebook.com/khanemajlis">
                                             <span class="fa fa-facebook"></span>
                                             facebook
                                         </a>
                                     </li>
+                                    {{--                                    <li>--}}
+                                    {{--                                        <a href="https://www.youtube.com/channel/UCmhhQfPJKzPfdiqTDhj6r9w">--}}
+                                    {{--                                            <span class="fa fa-youtube"></span>--}}
+                                    {{--                                            youtube--}}
+                                    {{--                                        </a>--}}
+                                    {{--                                    </li>--}}
                                     <li>
-                                        <a href="https://www.youtube.com/channel/UCmhhQfPJKzPfdiqTDhj6r9w">
-                                            <span class="fa fa-youtube"></span>
-                                            youtube
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.instagram.com/fakruddinbiryani/">
-                                            <span class="fa fa-instagram"></span>
+                                        <a href="https://www.instagram.com/khanemajlis/">
+                                            <span style="color:#032147 "class="fa fa-instagram"></span>
                                             instagram
                                         </a>
                                     </li>
@@ -4359,7 +4605,7 @@
                         <div class="wpb_text_column wpb_content_element ovic_custom_6045e06714938 vc_custom_1602947111961">
                             <div class="wpb_wrapper">
                                 <div style="color: #222222; font-size: 15px;">
-                                    Copyright © 1966-2020 <strong>F</strong><span style="font-size: 17px; font-weight: 600;"><strong>akruddin</strong>.</span> All rights reserved.
+                                    Copyright ©<a class="link-text" href="http://customdigital.co/"><strong>Custom</strong><span style="font-size: 17px; font-weight: 600;"><strong>Digital</strong></a>.</span>All rights reserved.
                                 </div>
                             </div>
                         </div>
@@ -4469,72 +4715,72 @@
 </script>
 <link rel="stylesheet" id="vc_google_fonts_cairoregular-css" href="https://fonts.googleapis.com/css?family=Cairo:regular" type="text/css" media="all" />
 <link rel="stylesheet" id="photoswipe-css" href="{{asset('assets/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css')}}" type="text/css" media="all" />
-        <link rel="stylesheet" id="photoswipe-default-skin-css" href="{{asset('assets/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css')}}" type="text/css" media="all" />
-        <script type="text/javascript" src="{{asset('assets/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min.js')}}"></script>
-        <script type="text/javascript">
-            /* <![CDATA[ */
-            var yith_wcwl_l10n = {
-                ajax_url: "\/wp-admin\/admin-ajax.php",
-                redirect_to_cart: "no",
-                multi_wishlist: "",
-                hide_add_button: "1",
-                enable_ajax_loading: "",
-                ajax_loader_url: "https:\/\/ml1jnkl0l3eh.i.optimole.com\/ioGHWlw-1_AIDb5V\/w:auto\/h:auto\/q:auto\/https:\/\/fakruddin.com\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader-alt.svg",
-                remove_from_wishlist_after_add_to_cart: "1",
-                is_wishlist_responsive: "1",
-                time_to_close_prettyphoto: "3000",
-                fragments_index_glue: ".",
-                labels: {
-                    cookie_disabled: "We are sorry, but this feature is available only if cookies on your browser are enabled.",
-                    added_to_cart_message: '<div class="woocommerce-notices-wrapper"><div class="woocommerce-message" role="alert">Product added to cart successfully<\/div><\/div>',
-                },
-                actions: {
-                    add_to_wishlist_action: "add_to_wishlist",
-                    remove_from_wishlist_action: "remove_from_wishlist",
-                    reload_wishlist_and_adding_elem_action: "reload_wishlist_and_adding_elem",
-                    load_mobile_action: "load_mobile",
-                    delete_item_action: "delete_item",
-                    save_title_action: "save_title",
-                    save_privacy_action: "save_privacy",
-                    load_fragments: "load_fragments",
-                },
-            };
-            /* ]]> */
-        </script>
-        <script type="text/javascript" src="{{asset('assets/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.js')}}"></script>
-        <script type="text/javascript" src="{{asset('assets/wp-content/plugins/bkash/js/scripts.js')}}"></script>
-        <script type="text/javascript" src="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/threesixty.min.js')}}"></script>
-        <script type="text/javascript" src="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/serialize-object.min.js')}}"></script>
-        <script type="text/javascript" src="{{asset('assets/wp-content/plugins/ovic-toolkit/assets/js/jquery.magnific-popup.min.js')}}"></script>
-        <script type="text/javascript" src="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/bootstrap.min.js')}}"></script>
-        <script type="text/javascript" src="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/slick.min.js')}}"></script>
-        <script type="text/javascript" src="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/countdown.min.js')}}"></script>
-        <script type="text/javascript" src="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/chosen.min.js')}}"></script>
-        <script type="text/javascript" src="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/lazyload.min.js')}}"></script>
-        <script type="text/javascript" src="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/growl.min.js')}}{"></script>
-        <script type="text/javascript">
-            /* <![CDATA[ */
-            var ovic_ajax_frontend = {
-                ajaxurl: "\/wp-admin\/admin-ajax.php",
-                ovic_ajax_url: "\/?ovic-ajax=%%endpoint%%",
-                security: "179fc058ca",
-                view_cart_notification_text: "View Cart",
-                added_to_cart_text: "Product has been added to cart!",
-                wc_cart_url: "https:\/\/fakruddin.com\/cart\/",
-                added_to_wishlist_text: "Product added!",
-                removed_from_wishlist_text: "Product has been removed from wishlist!",
-                wishlist_url: "https:\/\/fakruddin.com\/wishlist\/",
-                browse_wishlist_text: "Browse Wishlist",
-                growl_notice_text: "Notice!",
-                growl_duration: "3000",
-                removed_cart_text: "Product Removed",
-                wp_nonce_url: "https:\/\/fakruddin.com\/cart\/?_wpnonce=ce56c28215",
-                data_slick: '{"slidesMargin":10,"infinite":false,"slidesToShow":4,"focusOnSelect":true}',
-                data_responsive:
-                    '[{"breakpoint":1500,"settings":{"slidesToShow":4}},{"breakpoint":1200,"settings":{"slidesToShow":4}},{"breakpoint":992,"settings":{"slidesToShow":4}},{"breakpoint":768,"settings":{"slidesToShow":4}},{"breakpoint":480,"settings":{"slidesToShow":3}}]',
-single_add_to_cart: "",
-};
-/* ]]> */
+<link rel="stylesheet" id="photoswipe-default-skin-css" href="{{asset('assets/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css')}}" type="text/css" media="all" />
+<script type="text/javascript" src="{{asset('assets/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min.js')}}"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var yith_wcwl_l10n = {
+        ajax_url: "\/wp-admin\/admin-ajax.php",
+        redirect_to_cart: "no",
+        multi_wishlist: "",
+        hide_add_button: "1",
+        enable_ajax_loading: "",
+        ajax_loader_url: "https:\/\/ml1jnkl0l3eh.i.optimole.com\/ioGHWlw-1_AIDb5V\/w:auto\/h:auto\/q:auto\/https:\/\/fakruddin.com\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader-alt.svg",
+        remove_from_wishlist_after_add_to_cart: "1",
+        is_wishlist_responsive: "1",
+        time_to_close_prettyphoto: "3000",
+        fragments_index_glue: ".",
+        labels: {
+            cookie_disabled: "We are sorry, but this feature is available only if cookies on your browser are enabled.",
+            added_to_cart_message: '<div class="woocommerce-notices-wrapper"><div class="woocommerce-message" role="alert">Product added to cart successfully<\/div><\/div>',
+        },
+        actions: {
+            add_to_wishlist_action: "add_to_wishlist",
+            remove_from_wishlist_action: "remove_from_wishlist",
+            reload_wishlist_and_adding_elem_action: "reload_wishlist_and_adding_elem",
+            load_mobile_action: "load_mobile",
+            delete_item_action: "delete_item",
+            save_title_action: "save_title",
+            save_privacy_action: "save_privacy",
+            load_fragments: "load_fragments",
+        },
+    };
+    /* ]]> */
+</script>
+<script type="text/javascript" src="{{asset('assets/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/wp-content/plugins/bkash/js/scripts.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/threesixty.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/serialize-object.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/wp-content/plugins/ovic-toolkit/assets/js/jquery.magnific-popup.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/bootstrap.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/slick.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/countdown.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/chosen.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/lazyload.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/libs/growl.min.js')}}{"></script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var ovic_ajax_frontend = {
+        ajaxurl: "\/wp-admin\/admin-ajax.php",
+        ovic_ajax_url: "\/?ovic-ajax=%%endpoint%%",
+        security: "179fc058ca",
+        view_cart_notification_text: "View Cart",
+        added_to_cart_text: "Product has been added to cart!",
+        wc_cart_url: "https:\/\/fakruddin.com\/cart\/",
+        added_to_wishlist_text: "Product added!",
+        removed_from_wishlist_text: "Product has been removed from wishlist!",
+        wishlist_url: "https:\/\/fakruddin.com\/wishlist\/",
+        browse_wishlist_text: "Browse Wishlist",
+        growl_notice_text: "Notice!",
+        growl_duration: "3000",
+        removed_cart_text: "Product Removed",
+        wp_nonce_url: "https:\/\/fakruddin.com\/cart\/?_wpnonce=ce56c28215",
+        data_slick: '{"slidesMargin":10,"infinite":false,"slidesToShow":4,"focusOnSelect":true}',
+        data_responsive:
+            '[{"breakpoint":1500,"settings":{"slidesToShow":4}},{"breakpoint":1200,"settings":{"slidesToShow":4}},{"breakpoint":992,"settings":{"slidesToShow":4}},{"breakpoint":768,"settings":{"slidesToShow":4}},{"breakpoint":480,"settings":{"slidesToShow":3}}]',
+        single_add_to_cart: "",
+    };
+    /* ]]> */
 </script>
 <script type="text/javascript" src="{{asset('assets/wp-content/plugins/ovic-toolkit/includes/frontend/assets/js/frontend.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('assets/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js')}}"></script>
