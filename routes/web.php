@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::group(['namespace' => 'App\Http\Controllers'], function () {
+    Route::get('pro','ProductController@products');
 
 });
 Route::get('/', function () {
@@ -32,4 +33,3 @@ Route::get('/about', function () {
 Route::get('/iftar', function () {
     return view('frontend.pages.iftarsss');
 });
-

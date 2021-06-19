@@ -19,7 +19,11 @@ class ProductController extends Controller
         $res = $client->get('https://thefoodstore.app/api/v1/stores');
         $data = $res->getBody()->getContents();
         $r = json_decode($data);
-        // dd($r->data);
+         $ar=$r->data;
+         foreach ($ar as $r)
+        {
+            print_r($r->menus);die();
+        }
         return view('backend.event.create');
     }
     public function index()
