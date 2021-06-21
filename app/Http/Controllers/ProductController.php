@@ -20,9 +20,26 @@ class ProductController extends Controller
         $data = $res->getBody()->getContents();
         $r = json_decode($data);
          $ar=$r->data;
-         foreach ($ar as $r)
-        {
-            print_r($r->menus);die();
+//         var_dump(count($ar));die();
+//         dd($ar);
+//        $da=0;
+//        while ($da=9){
+//            print_r($ar[$da]);die();
+//        }
+//        foreach ($ar as $key => $value){
+//                         print_r($value);die();
+//
+//        }
+//        foreach ($ar as $item) {
+//            foreach ($item as $it) {
+//                print_r($it);die();
+//
+//            }
+//        }
+        $lenght=count($ar);
+        for ($i=0; $i=$lenght-1; $i++){
+//              echo $lenght;die();
+            print_r($ar[$i]);die();
         }
         return view('backend.event.create');
     }
